@@ -1,0 +1,1833 @@
+2.5733 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+25.3155 	WARNING 	User requested fullscreen with size [1088  614], but screen is actually [1360, 768]. Using actual size
+27.9287 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002B9C14D3F98>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002B9C1255C88>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1360,  768]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+27.9287 	EXP 	window1: recordFrameIntervals = False
+28.0929 	EXP 	window1: recordFrameIntervals = True
+28.2983 	WARNING 	t of last frame was 22.74ms (=1/43)
+29.7602 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+30.5541 	EXP 	Created instr1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+30.5622 	EXP 	Created fix1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+30.7306 	EXP 	Created trialGrid = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='grid.png', interpolate=True, mask=None, maskParams=None, name='trialGrid', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.6]), texRes=128, units='height', win=Window(...))
+30.7377 	EXP 	Created trialSquare = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trialSquare', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+30.7413 	EXP 	Created trialFix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialFix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+30.8051 	EXP 	Created instr2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+30.8086 	EXP 	Created fix2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+30.9633 	EXP 	Created trialGrid = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='grid.png', interpolate=True, mask=None, maskParams=None, name='trialGrid', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.6]), texRes=128, units='height', win=Window(...))
+30.9664 	EXP 	Created trialSquare = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trialSquare', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+30.9701 	EXP 	Created trialFix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialFix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+31.0203 	EXP 	Created instr3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instr3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+31.0254 	EXP 	Created fix3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fix3', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+31.1239 	EXP 	Created trialGrid = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='grid.png', interpolate=True, mask=None, maskParams=None, name='trialGrid', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.6, 0.6]), texRes=128, units='height', win=Window(...))
+31.1271 	EXP 	Created trialSquare = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=-1.0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1, name='trialSquare', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([0.15, 0.15]), units='height', vertices=ndarray(...), win=Window(...))
+31.1305 	EXP 	Created trialFix = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialFix', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='+', units='height', win=Window(...), wrapWidth=1)
+31.1610 	EXP 	Created thanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanks', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+31.2076 	WARNING 	t of last frame was 1447.77ms (=1/0)
+31.2076 	EXP 	instr1: autoDraw = True
+31.2422 	WARNING 	t of last frame was 20.76ms (=1/48)
+32.5647 	WARNING 	t of last frame was 23.62ms (=1/42)
+33.0337 	DATA 	Keypress: s
+33.0412 	EXP 	instr1: autoDraw = False
+33.0412 	EXP 	fix1: autoDraw = True
+34.1185 	EXP 	Imported nBackCond1.xlsx as conditions, 60 conditions, 6 params
+34.1201 	EXP 	Created sequence: sequential, trialTypes=60, nReps=1, seed=None
+34.1211 	EXP 	New trial (rep=0, index=0): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 1)])
+34.1433 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+34.1414 	EXP 	fix1: autoDraw = False
+34.1414 	EXP 	fix1: autoDraw = False
+34.1414 	EXP 	trialSquare: pos = array([0.2, 0. ])
+34.1414 	EXP 	trialGrid: autoDraw = True
+34.1414 	EXP 	trialSquare: autoDraw = True
+35.1269 	EXP 	trialFix: autoDraw = True
+35.1407 	EXP 	trialSquare: autoDraw = False
+36.0462 	EXP 	New trial (rep=0, index=1): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 2)])
+36.0600 	EXP 	trialGrid: autoDraw = False
+36.0600 	EXP 	trialSquare: autoDraw = False
+36.0600 	EXP 	trialFix: autoDraw = False
+36.0600 	EXP 	trialSquare: pos = array([0.2, 0. ])
+36.0600 	EXP 	trialGrid: autoDraw = True
+36.0600 	EXP 	trialSquare: autoDraw = True
+36.4786 	DATA 	Keypress: space
+37.0405 	EXP 	trialFix: autoDraw = True
+37.0743 	EXP 	trialSquare: autoDraw = False
+38.0398 	EXP 	trialFix: autoDraw = False
+38.0420 	EXP 	New trial (rep=0, index=2): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 3)])
+38.0595 	EXP 	trialGrid: autoDraw = False
+38.0595 	EXP 	trialSquare: autoDraw = False
+38.0595 	EXP 	trialFix: autoDraw = False
+38.0595 	EXP 	trialSquare: pos = array([0. , 0.2])
+38.0595 	EXP 	trialGrid: autoDraw = True
+38.0595 	EXP 	trialSquare: autoDraw = True
+39.0403 	EXP 	trialFix: autoDraw = True
+39.0739 	EXP 	trialSquare: autoDraw = False
+40.0394 	EXP 	trialFix: autoDraw = False
+40.0414 	EXP 	New trial (rep=0, index=3): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 4)])
+40.0576 	EXP 	trialGrid: autoDraw = False
+40.0576 	EXP 	trialSquare: autoDraw = False
+40.0576 	EXP 	trialFix: autoDraw = False
+40.0576 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+40.0576 	EXP 	trialGrid: autoDraw = True
+40.0576 	EXP 	trialSquare: autoDraw = True
+41.0396 	EXP 	trialFix: autoDraw = True
+41.0737 	EXP 	trialSquare: autoDraw = False
+42.0392 	EXP 	trialFix: autoDraw = False
+42.0413 	EXP 	New trial (rep=0, index=4): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 5)])
+42.0567 	EXP 	trialGrid: autoDraw = False
+42.0567 	EXP 	trialSquare: autoDraw = False
+42.0567 	EXP 	trialFix: autoDraw = False
+42.0567 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+42.0567 	EXP 	trialGrid: autoDraw = True
+42.0567 	EXP 	trialSquare: autoDraw = True
+42.7285 	DATA 	Keypress: space
+43.0392 	EXP 	trialFix: autoDraw = True
+43.0615 	EXP 	trialSquare: autoDraw = False
+44.0390 	EXP 	trialFix: autoDraw = False
+44.0411 	EXP 	New trial (rep=0, index=5): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 6)])
+44.0567 	EXP 	trialGrid: autoDraw = False
+44.0567 	EXP 	trialSquare: autoDraw = False
+44.0567 	EXP 	trialFix: autoDraw = False
+44.0567 	EXP 	trialSquare: pos = array([0.2, 0. ])
+44.0567 	EXP 	trialGrid: autoDraw = True
+44.0567 	EXP 	trialSquare: autoDraw = True
+45.0390 	EXP 	trialFix: autoDraw = True
+45.0731 	EXP 	trialSquare: autoDraw = False
+46.0392 	EXP 	trialFix: autoDraw = False
+46.0412 	EXP 	New trial (rep=0, index=6): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 7)])
+46.0564 	EXP 	trialGrid: autoDraw = False
+46.0564 	EXP 	trialSquare: autoDraw = False
+46.0564 	EXP 	trialFix: autoDraw = False
+46.0564 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+46.0564 	EXP 	trialGrid: autoDraw = True
+46.0564 	EXP 	trialSquare: autoDraw = True
+47.0390 	EXP 	trialFix: autoDraw = True
+47.0565 	EXP 	trialSquare: autoDraw = False
+48.0394 	EXP 	trialFix: autoDraw = False
+48.0417 	EXP 	New trial (rep=0, index=7): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 8)])
+48.0568 	EXP 	trialGrid: autoDraw = False
+48.0568 	EXP 	trialSquare: autoDraw = False
+48.0568 	EXP 	trialFix: autoDraw = False
+48.0568 	EXP 	trialSquare: pos = array([0.2, 0.2])
+48.0568 	EXP 	trialGrid: autoDraw = True
+48.0568 	EXP 	trialSquare: autoDraw = True
+49.0381 	EXP 	trialFix: autoDraw = True
+49.0722 	EXP 	trialSquare: autoDraw = False
+50.0380 	EXP 	trialFix: autoDraw = False
+50.0405 	EXP 	New trial (rep=0, index=8): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 9)])
+50.0558 	EXP 	trialGrid: autoDraw = False
+50.0558 	EXP 	trialSquare: autoDraw = False
+50.0558 	EXP 	trialFix: autoDraw = False
+50.0558 	EXP 	trialSquare: pos = array([0.2, 0.2])
+50.0558 	EXP 	trialGrid: autoDraw = True
+50.0558 	EXP 	trialSquare: autoDraw = True
+51.0408 	EXP 	trialFix: autoDraw = True
+51.0548 	EXP 	trialSquare: autoDraw = False
+52.0417 	EXP 	New trial (rep=0, index=9): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 10)])
+52.0592 	EXP 	trialGrid: autoDraw = False
+52.0592 	EXP 	trialSquare: autoDraw = False
+52.0592 	EXP 	trialFix: autoDraw = False
+52.0592 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+52.0592 	EXP 	trialGrid: autoDraw = True
+52.0592 	EXP 	trialSquare: autoDraw = True
+53.0358 	EXP 	trialFix: autoDraw = True
+53.0698 	EXP 	trialSquare: autoDraw = False
+54.0355 	EXP 	trialFix: autoDraw = False
+54.0375 	EXP 	New trial (rep=0, index=10): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 11)])
+54.0533 	EXP 	trialGrid: autoDraw = False
+54.0533 	EXP 	trialSquare: autoDraw = False
+54.0533 	EXP 	trialFix: autoDraw = False
+54.0533 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+54.0533 	EXP 	trialGrid: autoDraw = True
+54.0533 	EXP 	trialSquare: autoDraw = True
+55.0351 	EXP 	trialFix: autoDraw = True
+55.0690 	EXP 	trialSquare: autoDraw = False
+56.0349 	EXP 	trialFix: autoDraw = False
+56.0372 	EXP 	New trial (rep=0, index=11): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 12)])
+56.0520 	EXP 	trialGrid: autoDraw = False
+56.0520 	EXP 	trialSquare: autoDraw = False
+56.0520 	EXP 	trialFix: autoDraw = False
+56.0520 	EXP 	trialSquare: pos = array([0. , 0.2])
+56.0520 	EXP 	trialGrid: autoDraw = True
+56.0520 	EXP 	trialSquare: autoDraw = True
+57.0346 	EXP 	trialFix: autoDraw = True
+57.0516 	EXP 	trialSquare: autoDraw = False
+58.0343 	EXP 	trialFix: autoDraw = False
+58.0366 	EXP 	New trial (rep=0, index=12): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 13)])
+58.0514 	EXP 	trialGrid: autoDraw = False
+58.0514 	EXP 	trialSquare: autoDraw = False
+58.0514 	EXP 	trialFix: autoDraw = False
+58.0514 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+58.0514 	EXP 	trialGrid: autoDraw = True
+58.0514 	EXP 	trialSquare: autoDraw = True
+59.0341 	EXP 	trialFix: autoDraw = True
+59.0511 	EXP 	trialSquare: autoDraw = False
+60.0340 	EXP 	trialFix: autoDraw = False
+60.0365 	EXP 	New trial (rep=0, index=13): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 14)])
+60.0507 	EXP 	trialGrid: autoDraw = False
+60.0507 	EXP 	trialSquare: autoDraw = False
+60.0507 	EXP 	trialFix: autoDraw = False
+60.0507 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+60.0507 	EXP 	trialGrid: autoDraw = True
+60.0507 	EXP 	trialSquare: autoDraw = True
+61.0336 	EXP 	trialFix: autoDraw = True
+61.0504 	EXP 	trialSquare: autoDraw = False
+62.0332 	EXP 	trialFix: autoDraw = False
+62.0352 	EXP 	New trial (rep=0, index=14): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 15)])
+62.0500 	EXP 	trialGrid: autoDraw = False
+62.0500 	EXP 	trialSquare: autoDraw = False
+62.0500 	EXP 	trialFix: autoDraw = False
+62.0500 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+62.0500 	EXP 	trialGrid: autoDraw = True
+62.0500 	EXP 	trialSquare: autoDraw = True
+63.0328 	EXP 	trialFix: autoDraw = True
+63.0496 	EXP 	trialSquare: autoDraw = False
+64.0328 	EXP 	trialFix: autoDraw = False
+64.0350 	EXP 	New trial (rep=0, index=15): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 16)])
+64.0496 	EXP 	trialGrid: autoDraw = False
+64.0496 	EXP 	trialSquare: autoDraw = False
+64.0496 	EXP 	trialFix: autoDraw = False
+64.0496 	EXP 	trialSquare: pos = array([0., 0.])
+64.0496 	EXP 	trialGrid: autoDraw = True
+64.0496 	EXP 	trialSquare: autoDraw = True
+65.0326 	EXP 	trialFix: autoDraw = True
+65.0491 	EXP 	trialSquare: autoDraw = False
+66.0326 	EXP 	trialFix: autoDraw = False
+66.0346 	EXP 	New trial (rep=0, index=16): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 17)])
+66.0489 	EXP 	trialGrid: autoDraw = False
+66.0489 	EXP 	trialSquare: autoDraw = False
+66.0489 	EXP 	trialFix: autoDraw = False
+66.0489 	EXP 	trialSquare: pos = array([0., 0.])
+66.0489 	EXP 	trialGrid: autoDraw = True
+66.0489 	EXP 	trialSquare: autoDraw = True
+67.0320 	EXP 	trialFix: autoDraw = True
+67.0485 	EXP 	trialSquare: autoDraw = False
+68.0321 	EXP 	trialFix: autoDraw = False
+68.0344 	EXP 	New trial (rep=0, index=17): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 18)])
+68.0483 	EXP 	trialGrid: autoDraw = False
+68.0483 	EXP 	trialSquare: autoDraw = False
+68.0483 	EXP 	trialFix: autoDraw = False
+68.0483 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+68.0483 	EXP 	trialGrid: autoDraw = True
+68.0483 	EXP 	trialSquare: autoDraw = True
+69.0320 	EXP 	trialFix: autoDraw = True
+69.0481 	EXP 	trialSquare: autoDraw = False
+70.0321 	EXP 	trialFix: autoDraw = False
+70.0343 	EXP 	New trial (rep=0, index=18): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 19)])
+70.0478 	EXP 	trialGrid: autoDraw = False
+70.0478 	EXP 	trialSquare: autoDraw = False
+70.0478 	EXP 	trialFix: autoDraw = False
+70.0478 	EXP 	trialSquare: pos = array([0.2, 0.2])
+70.0478 	EXP 	trialGrid: autoDraw = True
+70.0478 	EXP 	trialSquare: autoDraw = True
+71.0317 	EXP 	trialFix: autoDraw = True
+71.0477 	EXP 	trialSquare: autoDraw = False
+72.0341 	EXP 	New trial (rep=0, index=19): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 20)])
+72.0473 	EXP 	trialGrid: autoDraw = False
+72.0473 	EXP 	trialSquare: autoDraw = False
+72.0473 	EXP 	trialFix: autoDraw = False
+72.0473 	EXP 	trialSquare: pos = array([0.2, 0. ])
+72.0473 	EXP 	trialGrid: autoDraw = True
+72.0473 	EXP 	trialSquare: autoDraw = True
+73.0319 	EXP 	trialFix: autoDraw = True
+73.0470 	EXP 	trialSquare: autoDraw = False
+74.0338 	EXP 	New trial (rep=0, index=20): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 21)])
+74.0469 	EXP 	trialGrid: autoDraw = False
+74.0469 	EXP 	trialSquare: autoDraw = False
+74.0469 	EXP 	trialFix: autoDraw = False
+74.0469 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+74.0469 	EXP 	trialGrid: autoDraw = True
+74.0469 	EXP 	trialSquare: autoDraw = True
+75.0303 	EXP 	trialFix: autoDraw = True
+75.0466 	EXP 	trialSquare: autoDraw = False
+76.0315 	EXP 	trialFix: autoDraw = False
+76.0336 	EXP 	New trial (rep=0, index=21): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 22)])
+76.0463 	EXP 	trialGrid: autoDraw = False
+76.0463 	EXP 	trialSquare: autoDraw = False
+76.0463 	EXP 	trialFix: autoDraw = False
+76.0463 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+76.0463 	EXP 	trialGrid: autoDraw = True
+76.0463 	EXP 	trialSquare: autoDraw = True
+77.0306 	EXP 	trialFix: autoDraw = True
+77.0462 	EXP 	trialSquare: autoDraw = False
+78.0341 	EXP 	New trial (rep=0, index=22): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 23)])
+78.0464 	EXP 	trialGrid: autoDraw = False
+78.0464 	EXP 	trialSquare: autoDraw = False
+78.0464 	EXP 	trialFix: autoDraw = False
+78.0464 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+78.0464 	EXP 	trialGrid: autoDraw = True
+78.0464 	EXP 	trialSquare: autoDraw = True
+79.0308 	EXP 	trialFix: autoDraw = True
+79.0456 	EXP 	trialSquare: autoDraw = False
+80.0345 	EXP 	New trial (rep=0, index=23): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 24)])
+80.0464 	EXP 	trialGrid: autoDraw = False
+80.0464 	EXP 	trialSquare: autoDraw = False
+80.0464 	EXP 	trialFix: autoDraw = False
+80.0464 	EXP 	trialSquare: pos = array([0.2, 0.2])
+80.0464 	EXP 	trialGrid: autoDraw = True
+80.0464 	EXP 	trialSquare: autoDraw = True
+81.0295 	EXP 	trialFix: autoDraw = True
+81.0450 	EXP 	trialSquare: autoDraw = False
+82.0332 	EXP 	New trial (rep=0, index=24): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 25)])
+82.0448 	EXP 	trialGrid: autoDraw = False
+82.0448 	EXP 	trialSquare: autoDraw = False
+82.0448 	EXP 	trialFix: autoDraw = False
+82.0448 	EXP 	trialSquare: pos = array([0. , 0.2])
+82.0448 	EXP 	trialGrid: autoDraw = True
+82.0448 	EXP 	trialSquare: autoDraw = True
+83.0284 	EXP 	trialFix: autoDraw = True
+83.0446 	EXP 	trialSquare: autoDraw = False
+84.0284 	EXP 	trialFix: autoDraw = False
+84.0329 	EXP 	New trial (rep=0, index=25): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 26)])
+84.0445 	EXP 	trialGrid: autoDraw = False
+84.0445 	EXP 	trialGrid: autoDraw = False
+84.0445 	EXP 	trialSquare: autoDraw = False
+84.0445 	EXP 	trialFix: autoDraw = False
+84.0445 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+84.0445 	EXP 	trialGrid: autoDraw = True
+84.0445 	EXP 	trialSquare: autoDraw = True
+85.0283 	EXP 	trialFix: autoDraw = True
+85.0440 	EXP 	trialSquare: autoDraw = False
+86.0320 	EXP 	New trial (rep=0, index=26): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 27)])
+86.0438 	EXP 	trialGrid: autoDraw = False
+86.0438 	EXP 	trialFix: autoDraw = False
+86.0438 	EXP 	trialGrid: autoDraw = False
+86.0438 	EXP 	trialSquare: autoDraw = False
+86.0438 	EXP 	trialFix: autoDraw = False
+86.0438 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+86.0438 	EXP 	trialGrid: autoDraw = True
+86.0438 	EXP 	trialSquare: autoDraw = True
+87.0281 	EXP 	trialFix: autoDraw = True
+87.0435 	EXP 	trialSquare: autoDraw = False
+88.0316 	EXP 	New trial (rep=0, index=27): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 28)])
+88.0436 	EXP 	trialGrid: autoDraw = False
+88.0436 	EXP 	trialFix: autoDraw = False
+88.0436 	EXP 	trialGrid: autoDraw = False
+88.0436 	EXP 	trialSquare: autoDraw = False
+88.0436 	EXP 	trialFix: autoDraw = False
+88.0436 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+88.0436 	EXP 	trialGrid: autoDraw = True
+88.0436 	EXP 	trialSquare: autoDraw = True
+89.0268 	EXP 	trialFix: autoDraw = True
+89.0430 	EXP 	trialSquare: autoDraw = False
+90.0271 	EXP 	trialFix: autoDraw = False
+90.0309 	EXP 	New trial (rep=0, index=28): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 29)])
+90.0428 	EXP 	trialGrid: autoDraw = False
+90.0428 	EXP 	trialGrid: autoDraw = False
+90.0428 	EXP 	trialSquare: autoDraw = False
+90.0428 	EXP 	trialFix: autoDraw = False
+90.0428 	EXP 	trialSquare: pos = array([0. , 0.2])
+90.0428 	EXP 	trialGrid: autoDraw = True
+90.0428 	EXP 	trialSquare: autoDraw = True
+91.0265 	EXP 	trialFix: autoDraw = True
+91.0425 	EXP 	trialSquare: autoDraw = False
+92.0270 	EXP 	trialFix: autoDraw = False
+92.0308 	EXP 	New trial (rep=0, index=29): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 30)])
+92.0426 	EXP 	trialGrid: autoDraw = False
+92.0426 	EXP 	trialGrid: autoDraw = False
+92.0426 	EXP 	trialSquare: autoDraw = False
+92.0426 	EXP 	trialFix: autoDraw = False
+92.0426 	EXP 	trialSquare: pos = array([0.2, 0. ])
+92.0426 	EXP 	trialGrid: autoDraw = True
+92.0426 	EXP 	trialSquare: autoDraw = True
+93.0262 	EXP 	trialFix: autoDraw = True
+93.0421 	EXP 	trialSquare: autoDraw = False
+94.0302 	EXP 	New trial (rep=0, index=30): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 31)])
+94.0418 	EXP 	trialGrid: autoDraw = False
+94.0418 	EXP 	trialFix: autoDraw = False
+94.0418 	EXP 	trialGrid: autoDraw = False
+94.0418 	EXP 	trialSquare: autoDraw = False
+94.0418 	EXP 	trialFix: autoDraw = False
+94.0418 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+94.0418 	EXP 	trialGrid: autoDraw = True
+94.0418 	EXP 	trialSquare: autoDraw = True
+95.0256 	EXP 	trialFix: autoDraw = True
+95.0415 	EXP 	trialSquare: autoDraw = False
+96.0254 	EXP 	trialFix: autoDraw = False
+96.0297 	EXP 	New trial (rep=0, index=31): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 32)])
+96.0413 	EXP 	trialGrid: autoDraw = False
+96.0413 	EXP 	trialGrid: autoDraw = False
+96.0413 	EXP 	trialSquare: autoDraw = False
+96.0413 	EXP 	trialFix: autoDraw = False
+96.0413 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+96.0413 	EXP 	trialGrid: autoDraw = True
+96.0413 	EXP 	trialSquare: autoDraw = True
+97.0253 	EXP 	trialFix: autoDraw = True
+97.0410 	EXP 	trialSquare: autoDraw = False
+98.0301 	EXP 	New trial (rep=0, index=32): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 33)])
+98.0413 	EXP 	trialGrid: autoDraw = False
+98.0413 	EXP 	trialFix: autoDraw = False
+98.0413 	EXP 	trialGrid: autoDraw = False
+98.0413 	EXP 	trialSquare: autoDraw = False
+98.0413 	EXP 	trialFix: autoDraw = False
+98.0413 	EXP 	trialSquare: pos = array([0. , 0.2])
+98.0413 	EXP 	trialGrid: autoDraw = True
+98.0413 	EXP 	trialSquare: autoDraw = True
+99.0254 	EXP 	trialFix: autoDraw = True
+99.0406 	EXP 	trialSquare: autoDraw = False
+100.0300 	EXP 	New trial (rep=0, index=33): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 34)])
+100.0411 	EXP 	trialGrid: autoDraw = False
+100.0411 	EXP 	trialFix: autoDraw = False
+100.0411 	EXP 	trialGrid: autoDraw = False
+100.0411 	EXP 	trialSquare: autoDraw = False
+100.0411 	EXP 	trialFix: autoDraw = False
+100.0411 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+100.0411 	EXP 	trialGrid: autoDraw = True
+100.0411 	EXP 	trialSquare: autoDraw = True
+101.0253 	EXP 	trialFix: autoDraw = True
+101.0400 	EXP 	trialSquare: autoDraw = False
+102.0298 	EXP 	New trial (rep=0, index=34): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 35)])
+102.0408 	EXP 	trialGrid: autoDraw = False
+102.0408 	EXP 	trialFix: autoDraw = False
+102.0408 	EXP 	trialGrid: autoDraw = False
+102.0408 	EXP 	trialSquare: autoDraw = False
+102.0408 	EXP 	trialFix: autoDraw = False
+102.0408 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+102.0408 	EXP 	trialGrid: autoDraw = True
+102.0408 	EXP 	trialSquare: autoDraw = True
+103.0253 	EXP 	trialFix: autoDraw = True
+103.0395 	EXP 	trialSquare: autoDraw = False
+104.0295 	EXP 	New trial (rep=0, index=35): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 36)])
+104.0409 	EXP 	trialGrid: autoDraw = False
+104.0409 	EXP 	trialFix: autoDraw = False
+104.0409 	EXP 	trialGrid: autoDraw = False
+104.0409 	EXP 	trialSquare: autoDraw = False
+104.0409 	EXP 	trialFix: autoDraw = False
+104.0409 	EXP 	trialSquare: pos = array([0.2, 0.2])
+104.0409 	EXP 	trialGrid: autoDraw = True
+104.0409 	EXP 	trialSquare: autoDraw = True
+105.0262 	EXP 	trialFix: autoDraw = True
+105.0393 	EXP 	trialSquare: autoDraw = False
+106.0307 	EXP 	New trial (rep=0, index=36): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 37)])
+106.0419 	EXP 	trialGrid: autoDraw = False
+106.0419 	EXP 	trialFix: autoDraw = False
+106.0419 	EXP 	trialGrid: autoDraw = False
+106.0419 	EXP 	trialSquare: autoDraw = False
+106.0419 	EXP 	trialFix: autoDraw = False
+106.0419 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+106.0419 	EXP 	trialGrid: autoDraw = True
+106.0419 	EXP 	trialSquare: autoDraw = True
+107.0255 	EXP 	trialFix: autoDraw = True
+107.0391 	EXP 	trialSquare: autoDraw = False
+108.0298 	EXP 	New trial (rep=0, index=37): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 38)])
+108.0410 	EXP 	trialGrid: autoDraw = False
+108.0410 	EXP 	trialFix: autoDraw = False
+108.0410 	EXP 	trialGrid: autoDraw = False
+108.0410 	EXP 	trialSquare: autoDraw = False
+108.0410 	EXP 	trialFix: autoDraw = False
+108.0410 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+108.0410 	EXP 	trialGrid: autoDraw = True
+108.0410 	EXP 	trialSquare: autoDraw = True
+109.0257 	EXP 	trialFix: autoDraw = True
+109.0388 	EXP 	trialSquare: autoDraw = False
+110.0290 	EXP 	New trial (rep=0, index=38): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 39)])
+110.0409 	EXP 	trialGrid: autoDraw = False
+110.0409 	EXP 	trialFix: autoDraw = False
+110.0409 	EXP 	trialGrid: autoDraw = False
+110.0409 	EXP 	trialSquare: autoDraw = False
+110.0409 	EXP 	trialFix: autoDraw = False
+110.0409 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+110.0409 	EXP 	trialGrid: autoDraw = True
+110.0409 	EXP 	trialSquare: autoDraw = True
+111.0259 	EXP 	trialFix: autoDraw = True
+111.0387 	EXP 	trialSquare: autoDraw = False
+112.0272 	EXP 	New trial (rep=0, index=39): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 40)])
+112.0390 	EXP 	trialGrid: autoDraw = False
+112.0390 	EXP 	trialFix: autoDraw = False
+112.0390 	EXP 	trialGrid: autoDraw = False
+112.0390 	EXP 	trialSquare: autoDraw = False
+112.0390 	EXP 	trialFix: autoDraw = False
+112.0390 	EXP 	trialSquare: pos = array([0.2, 0. ])
+112.0390 	EXP 	trialGrid: autoDraw = True
+112.0390 	EXP 	trialSquare: autoDraw = True
+113.0237 	EXP 	trialFix: autoDraw = True
+113.0378 	EXP 	trialSquare: autoDraw = False
+114.0253 	EXP 	trialFix: autoDraw = False
+114.0296 	EXP 	New trial (rep=0, index=40): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 41)])
+114.0398 	EXP 	trialGrid: autoDraw = False
+114.0398 	EXP 	trialGrid: autoDraw = False
+114.0398 	EXP 	trialSquare: autoDraw = False
+114.0398 	EXP 	trialFix: autoDraw = False
+114.0398 	EXP 	trialSquare: pos = array([0.2, 0. ])
+114.0398 	EXP 	trialGrid: autoDraw = True
+114.0398 	EXP 	trialSquare: autoDraw = True
+115.0224 	EXP 	trialFix: autoDraw = True
+115.0373 	EXP 	trialSquare: autoDraw = False
+116.0369 	EXP 	trialFix: autoDraw = False
+116.0390 	EXP 	New trial (rep=0, index=41): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 42)])
+116.0543 	EXP 	trialGrid: autoDraw = False
+116.0543 	EXP 	trialSquare: autoDraw = False
+116.0543 	EXP 	trialFix: autoDraw = False
+116.0543 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+116.0543 	EXP 	trialGrid: autoDraw = True
+116.0543 	EXP 	trialSquare: autoDraw = True
+117.0371 	EXP 	trialFix: autoDraw = True
+117.0552 	EXP 	trialSquare: autoDraw = False
+118.0364 	EXP 	trialFix: autoDraw = False
+118.0386 	EXP 	New trial (rep=0, index=42): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 43)])
+118.0549 	EXP 	trialGrid: autoDraw = False
+118.0549 	EXP 	trialSquare: autoDraw = False
+118.0549 	EXP 	trialFix: autoDraw = False
+118.0549 	EXP 	trialSquare: pos = array([0., 0.])
+118.0549 	EXP 	trialGrid: autoDraw = True
+118.0549 	EXP 	trialSquare: autoDraw = True
+119.0365 	EXP 	trialFix: autoDraw = True
+119.0703 	EXP 	trialSquare: autoDraw = False
+120.0362 	EXP 	trialFix: autoDraw = False
+120.0384 	EXP 	New trial (rep=0, index=43): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 44)])
+120.0536 	EXP 	trialGrid: autoDraw = False
+120.0536 	EXP 	trialSquare: autoDraw = False
+120.0536 	EXP 	trialFix: autoDraw = False
+120.0536 	EXP 	trialSquare: pos = array([0.2, 0.2])
+120.0536 	EXP 	trialGrid: autoDraw = True
+120.0536 	EXP 	trialSquare: autoDraw = True
+121.0358 	EXP 	trialFix: autoDraw = True
+121.0696 	EXP 	trialSquare: autoDraw = False
+122.0355 	EXP 	trialFix: autoDraw = False
+122.0375 	EXP 	New trial (rep=0, index=44): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 45)])
+122.0521 	EXP 	trialGrid: autoDraw = False
+122.0521 	EXP 	trialSquare: autoDraw = False
+122.0521 	EXP 	trialFix: autoDraw = False
+122.0521 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+122.0521 	EXP 	trialGrid: autoDraw = True
+122.0521 	EXP 	trialSquare: autoDraw = True
+123.0353 	EXP 	trialFix: autoDraw = True
+123.0528 	EXP 	trialSquare: autoDraw = False
+124.0348 	EXP 	trialFix: autoDraw = False
+124.0369 	EXP 	New trial (rep=0, index=45): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 46)])
+124.0518 	EXP 	trialGrid: autoDraw = False
+124.0518 	EXP 	trialSquare: autoDraw = False
+124.0518 	EXP 	trialFix: autoDraw = False
+124.0518 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+124.0518 	EXP 	trialGrid: autoDraw = True
+124.0518 	EXP 	trialSquare: autoDraw = True
+125.0349 	EXP 	trialFix: autoDraw = True
+125.0515 	EXP 	trialSquare: autoDraw = False
+126.0344 	EXP 	trialFix: autoDraw = False
+126.0364 	EXP 	New trial (rep=0, index=46): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 47)])
+126.0511 	EXP 	trialGrid: autoDraw = False
+126.0511 	EXP 	trialSquare: autoDraw = False
+126.0511 	EXP 	trialFix: autoDraw = False
+126.0511 	EXP 	trialSquare: pos = array([0.2, 0.2])
+126.0511 	EXP 	trialGrid: autoDraw = True
+126.0511 	EXP 	trialSquare: autoDraw = True
+127.0341 	EXP 	trialFix: autoDraw = True
+127.0509 	EXP 	trialSquare: autoDraw = False
+128.0341 	EXP 	trialFix: autoDraw = False
+128.0365 	EXP 	New trial (rep=0, index=47): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 48)])
+128.0503 	EXP 	trialGrid: autoDraw = False
+128.0503 	EXP 	trialSquare: autoDraw = False
+128.0503 	EXP 	trialFix: autoDraw = False
+128.0503 	EXP 	trialSquare: pos = array([0.2, 0.2])
+128.0503 	EXP 	trialGrid: autoDraw = True
+128.0503 	EXP 	trialSquare: autoDraw = True
+129.0336 	EXP 	trialFix: autoDraw = True
+129.0503 	EXP 	trialSquare: autoDraw = False
+130.0333 	EXP 	trialFix: autoDraw = False
+130.0356 	EXP 	New trial (rep=0, index=48): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 49)])
+130.0499 	EXP 	trialGrid: autoDraw = False
+130.0499 	EXP 	trialSquare: autoDraw = False
+130.0499 	EXP 	trialFix: autoDraw = False
+130.0499 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+130.0499 	EXP 	trialGrid: autoDraw = True
+130.0499 	EXP 	trialSquare: autoDraw = True
+131.0330 	EXP 	trialFix: autoDraw = True
+131.0494 	EXP 	trialSquare: autoDraw = False
+132.0339 	EXP 	trialFix: autoDraw = False
+132.0370 	EXP 	New trial (rep=0, index=49): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 50)])
+132.0491 	EXP 	trialGrid: autoDraw = False
+132.0491 	EXP 	trialSquare: autoDraw = False
+132.0491 	EXP 	trialFix: autoDraw = False
+132.0491 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+132.0491 	EXP 	trialGrid: autoDraw = True
+132.0491 	EXP 	trialSquare: autoDraw = True
+133.0326 	EXP 	trialFix: autoDraw = True
+133.0491 	EXP 	trialSquare: autoDraw = False
+134.0327 	EXP 	trialFix: autoDraw = False
+134.0347 	EXP 	New trial (rep=0, index=50): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 51)])
+134.0487 	EXP 	trialGrid: autoDraw = False
+134.0487 	EXP 	trialSquare: autoDraw = False
+134.0487 	EXP 	trialFix: autoDraw = False
+134.0487 	EXP 	trialSquare: pos = array([0., 0.])
+134.0487 	EXP 	trialGrid: autoDraw = True
+134.0487 	EXP 	trialSquare: autoDraw = True
+135.0328 	EXP 	trialFix: autoDraw = True
+135.0484 	EXP 	trialSquare: autoDraw = False
+136.0352 	EXP 	New trial (rep=0, index=51): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 52)])
+136.0482 	EXP 	trialGrid: autoDraw = False
+136.0482 	EXP 	trialSquare: autoDraw = False
+136.0482 	EXP 	trialFix: autoDraw = False
+136.0482 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+136.0482 	EXP 	trialGrid: autoDraw = True
+136.0482 	EXP 	trialSquare: autoDraw = True
+137.0322 	EXP 	trialFix: autoDraw = True
+137.0479 	EXP 	trialSquare: autoDraw = False
+138.0345 	EXP 	New trial (rep=0, index=52): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 53)])
+138.0476 	EXP 	trialGrid: autoDraw = False
+138.0476 	EXP 	trialSquare: autoDraw = False
+138.0476 	EXP 	trialFix: autoDraw = False
+138.0476 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+138.0476 	EXP 	trialGrid: autoDraw = True
+138.0476 	EXP 	trialSquare: autoDraw = True
+139.0321 	EXP 	trialFix: autoDraw = True
+139.0473 	EXP 	trialSquare: autoDraw = False
+139.2038 	DATA 	Keypress: space
+140.0345 	EXP 	New trial (rep=0, index=53): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 54)])
+140.0471 	EXP 	trialGrid: autoDraw = False
+140.0471 	EXP 	trialSquare: autoDraw = False
+140.0471 	EXP 	trialFix: autoDraw = False
+140.0471 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+140.0471 	EXP 	trialGrid: autoDraw = True
+140.0471 	EXP 	trialSquare: autoDraw = True
+141.0310 	EXP 	trialFix: autoDraw = True
+141.0469 	EXP 	trialSquare: autoDraw = False
+142.0339 	EXP 	New trial (rep=0, index=54): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 55)])
+142.0466 	EXP 	trialGrid: autoDraw = False
+142.0466 	EXP 	trialSquare: autoDraw = False
+142.0466 	EXP 	trialFix: autoDraw = False
+142.0466 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+142.0466 	EXP 	trialGrid: autoDraw = True
+142.0466 	EXP 	trialSquare: autoDraw = True
+143.0309 	EXP 	trialFix: autoDraw = True
+143.0464 	EXP 	trialSquare: autoDraw = False
+144.0338 	EXP 	New trial (rep=0, index=55): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 56)])
+144.0461 	EXP 	trialGrid: autoDraw = False
+144.0461 	EXP 	trialSquare: autoDraw = False
+144.0461 	EXP 	trialFix: autoDraw = False
+144.0461 	EXP 	trialSquare: pos = array([0., 0.])
+144.0461 	EXP 	trialGrid: autoDraw = True
+144.0461 	EXP 	trialSquare: autoDraw = True
+145.0309 	EXP 	trialFix: autoDraw = True
+145.0458 	EXP 	trialSquare: autoDraw = False
+146.0342 	EXP 	New trial (rep=0, index=56): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 57)])
+146.0457 	EXP 	trialGrid: autoDraw = False
+146.0457 	EXP 	trialSquare: autoDraw = False
+146.0457 	EXP 	trialFix: autoDraw = False
+146.0457 	EXP 	trialSquare: pos = array([0., 0.])
+146.0457 	EXP 	trialGrid: autoDraw = True
+146.0457 	EXP 	trialSquare: autoDraw = True
+147.0310 	EXP 	trialFix: autoDraw = True
+147.0453 	EXP 	trialSquare: autoDraw = False
+148.0334 	EXP 	New trial (rep=0, index=57): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 1), ('trialNum', 58)])
+148.0452 	EXP 	trialGrid: autoDraw = False
+148.0452 	EXP 	trialFix: autoDraw = False
+148.0452 	EXP 	trialGrid: autoDraw = False
+148.0452 	EXP 	trialSquare: autoDraw = False
+148.0452 	EXP 	trialFix: autoDraw = False
+148.0452 	EXP 	trialSquare: pos = array([0. , 0.2])
+148.0452 	EXP 	trialGrid: autoDraw = True
+148.0452 	EXP 	trialSquare: autoDraw = True
+149.0316 	EXP 	trialFix: autoDraw = True
+149.0451 	EXP 	trialSquare: autoDraw = False
+150.0335 	EXP 	New trial (rep=0, index=58): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 1), ('trialNum', 59)])
+150.0449 	EXP 	trialGrid: autoDraw = False
+150.0449 	EXP 	trialFix: autoDraw = False
+150.0449 	EXP 	trialGrid: autoDraw = False
+150.0449 	EXP 	trialSquare: autoDraw = False
+150.0449 	EXP 	trialFix: autoDraw = False
+150.0449 	EXP 	trialSquare: pos = array([0. , 0.2])
+150.0449 	EXP 	trialGrid: autoDraw = True
+150.0449 	EXP 	trialSquare: autoDraw = True
+150.8164 	DATA 	Keypress: space
+150.8845 	DATA 	Keypress: n
+151.0290 	EXP 	trialFix: autoDraw = True
+151.0443 	EXP 	trialSquare: autoDraw = False
+152.0335 	EXP 	New trial (rep=0, index=59): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 1), ('trialNum', 60)])
+152.0467 	EXP 	trialGrid: autoDraw = False
+152.0467 	EXP 	trialFix: autoDraw = False
+152.0467 	EXP 	trialGrid: autoDraw = False
+152.0467 	EXP 	trialSquare: autoDraw = False
+152.0467 	EXP 	trialFix: autoDraw = False
+152.0467 	EXP 	trialSquare: pos = array([0.2, 0. ])
+152.0467 	EXP 	trialGrid: autoDraw = True
+152.0467 	EXP 	trialSquare: autoDraw = True
+153.0289 	EXP 	trialFix: autoDraw = True
+153.0609 	EXP 	trialSquare: autoDraw = False
+154.0436 	EXP 	trialFix: autoDraw = False
+154.0607 	EXP 	trialGrid: autoDraw = False
+154.0607 	EXP 	trialSquare: autoDraw = False
+154.0607 	EXP 	trialFix: autoDraw = False
+154.0607 	EXP 	instr2: autoDraw = True
+155.5356 	DATA 	Keypress: s
+155.5431 	EXP 	instr2: autoDraw = False
+155.5431 	EXP 	fix2: autoDraw = True
+156.5616 	EXP 	Imported nBackCond2.xlsx as conditions, 60 conditions, 6 params
+156.5623 	EXP 	Created sequence: sequential, trialTypes=60, nReps=1, seed=None
+156.5630 	EXP 	New trial (rep=0, index=0): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 61)])
+156.5726 	EXP 	fix2: autoDraw = False
+156.5726 	EXP 	fix2: autoDraw = False
+156.5726 	EXP 	trialSquare: pos = array([0., 0.])
+156.5726 	EXP 	trialGrid: autoDraw = True
+156.5726 	EXP 	trialSquare: autoDraw = True
+157.5609 	EXP 	trialFix: autoDraw = True
+157.5763 	EXP 	trialSquare: autoDraw = False
+158.5462 	EXP 	New trial (rep=0, index=1): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 62)])
+158.5603 	EXP 	trialGrid: autoDraw = False
+158.5603 	EXP 	trialSquare: autoDraw = False
+158.5603 	EXP 	trialFix: autoDraw = False
+158.5603 	EXP 	trialSquare: pos = array([0. , 0.2])
+158.5603 	EXP 	trialGrid: autoDraw = True
+158.5603 	EXP 	trialSquare: autoDraw = True
+159.5424 	EXP 	trialFix: autoDraw = True
+159.5757 	EXP 	trialSquare: autoDraw = False
+160.5422 	EXP 	trialFix: autoDraw = False
+160.5444 	EXP 	New trial (rep=0, index=2): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 63)])
+160.5614 	EXP 	trialGrid: autoDraw = False
+160.5614 	EXP 	trialSquare: autoDraw = False
+160.5614 	EXP 	trialFix: autoDraw = False
+160.5614 	EXP 	trialSquare: pos = array([0.2, 0. ])
+160.5614 	EXP 	trialGrid: autoDraw = True
+160.5614 	EXP 	trialSquare: autoDraw = True
+161.5418 	EXP 	trialFix: autoDraw = True
+161.5752 	EXP 	trialSquare: autoDraw = False
+162.5417 	EXP 	trialFix: autoDraw = False
+162.5438 	EXP 	New trial (rep=0, index=3): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 64)])
+162.5602 	EXP 	trialGrid: autoDraw = False
+162.5602 	EXP 	trialSquare: autoDraw = False
+162.5602 	EXP 	trialFix: autoDraw = False
+162.5602 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+162.5602 	EXP 	trialGrid: autoDraw = True
+162.5602 	EXP 	trialSquare: autoDraw = True
+163.5414 	EXP 	trialFix: autoDraw = True
+163.5748 	EXP 	trialSquare: autoDraw = False
+164.5412 	EXP 	trialFix: autoDraw = False
+164.5434 	EXP 	New trial (rep=0, index=4): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 65)])
+164.5605 	EXP 	trialGrid: autoDraw = False
+164.5605 	EXP 	trialSquare: autoDraw = False
+164.5605 	EXP 	trialFix: autoDraw = False
+164.5605 	EXP 	trialSquare: pos = array([0.2, 0.2])
+164.5605 	EXP 	trialGrid: autoDraw = True
+164.5605 	EXP 	trialSquare: autoDraw = True
+165.5410 	EXP 	trialFix: autoDraw = True
+165.5742 	EXP 	trialSquare: autoDraw = False
+166.5420 	EXP 	trialFix: autoDraw = False
+166.5445 	EXP 	New trial (rep=0, index=5): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 66)])
+166.5590 	EXP 	trialGrid: autoDraw = False
+166.5590 	EXP 	trialSquare: autoDraw = False
+166.5590 	EXP 	trialFix: autoDraw = False
+166.5590 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+166.5590 	EXP 	trialGrid: autoDraw = True
+166.5590 	EXP 	trialSquare: autoDraw = True
+166.8985 	DATA 	Keypress: space
+167.5404 	EXP 	trialFix: autoDraw = True
+167.5737 	EXP 	trialSquare: autoDraw = False
+168.5409 	EXP 	trialFix: autoDraw = False
+168.5431 	EXP 	New trial (rep=0, index=6): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 67)])
+168.5593 	EXP 	trialGrid: autoDraw = False
+168.5593 	EXP 	trialSquare: autoDraw = False
+168.5593 	EXP 	trialFix: autoDraw = False
+168.5593 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+168.5593 	EXP 	trialGrid: autoDraw = True
+168.5593 	EXP 	trialSquare: autoDraw = True
+169.5400 	EXP 	trialFix: autoDraw = True
+169.5733 	EXP 	trialSquare: autoDraw = False
+170.5406 	EXP 	trialFix: autoDraw = False
+170.5426 	EXP 	New trial (rep=0, index=7): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 68)])
+170.5574 	EXP 	trialGrid: autoDraw = False
+170.5574 	EXP 	trialSquare: autoDraw = False
+170.5574 	EXP 	trialFix: autoDraw = False
+170.5574 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+170.5574 	EXP 	trialGrid: autoDraw = True
+170.5574 	EXP 	trialSquare: autoDraw = True
+171.5399 	EXP 	trialFix: autoDraw = True
+171.5595 	EXP 	trialSquare: autoDraw = False
+172.5404 	EXP 	trialFix: autoDraw = False
+172.5428 	EXP 	New trial (rep=0, index=8): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 69)])
+172.5574 	EXP 	trialGrid: autoDraw = False
+172.5574 	EXP 	trialSquare: autoDraw = False
+172.5574 	EXP 	trialFix: autoDraw = False
+172.5574 	EXP 	trialSquare: pos = array([0., 0.])
+172.5574 	EXP 	trialGrid: autoDraw = True
+172.5574 	EXP 	trialSquare: autoDraw = True
+173.5389 	EXP 	trialFix: autoDraw = True
+173.5723 	EXP 	trialSquare: autoDraw = False
+174.5407 	EXP 	trialFix: autoDraw = False
+174.5428 	EXP 	New trial (rep=0, index=9): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 70)])
+174.5567 	EXP 	trialGrid: autoDraw = False
+174.5567 	EXP 	trialSquare: autoDraw = False
+174.5567 	EXP 	trialFix: autoDraw = False
+174.5567 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+174.5567 	EXP 	trialGrid: autoDraw = True
+174.5567 	EXP 	trialSquare: autoDraw = True
+175.5396 	EXP 	trialFix: autoDraw = True
+175.5596 	EXP 	trialSquare: autoDraw = False
+176.5384 	EXP 	trialFix: autoDraw = False
+176.5415 	EXP 	New trial (rep=0, index=10): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 71)])
+176.5568 	EXP 	trialGrid: autoDraw = False
+176.5568 	EXP 	trialSquare: autoDraw = False
+176.5568 	EXP 	trialFix: autoDraw = False
+176.5568 	EXP 	trialSquare: pos = array([0., 0.])
+176.5568 	EXP 	trialGrid: autoDraw = True
+176.5568 	EXP 	trialSquare: autoDraw = True
+177.5383 	EXP 	trialFix: autoDraw = True
+177.5712 	EXP 	trialSquare: autoDraw = False
+178.5389 	EXP 	trialFix: autoDraw = False
+178.5417 	EXP 	New trial (rep=0, index=11): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 72)])
+178.5593 	EXP 	trialGrid: autoDraw = False
+178.5593 	EXP 	trialSquare: autoDraw = False
+178.5593 	EXP 	trialFix: autoDraw = False
+178.5593 	EXP 	trialSquare: pos = array([0.2, 0. ])
+178.5593 	EXP 	trialGrid: autoDraw = True
+178.5593 	EXP 	trialSquare: autoDraw = True
+179.5384 	EXP 	trialFix: autoDraw = True
+179.5714 	EXP 	trialSquare: autoDraw = False
+180.5393 	EXP 	trialFix: autoDraw = False
+180.5419 	EXP 	New trial (rep=0, index=12): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 73)])
+180.5583 	EXP 	trialGrid: autoDraw = False
+180.5583 	EXP 	trialSquare: autoDraw = False
+180.5583 	EXP 	trialFix: autoDraw = False
+180.5583 	EXP 	trialSquare: pos = array([0.2, 0.2])
+180.5583 	EXP 	trialGrid: autoDraw = True
+180.5583 	EXP 	trialSquare: autoDraw = True
+181.5378 	EXP 	trialFix: autoDraw = True
+181.5708 	EXP 	trialSquare: autoDraw = False
+182.5382 	EXP 	trialFix: autoDraw = False
+182.5411 	EXP 	New trial (rep=0, index=13): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 74)])
+182.5559 	EXP 	trialGrid: autoDraw = False
+182.5559 	EXP 	trialSquare: autoDraw = False
+182.5559 	EXP 	trialFix: autoDraw = False
+182.5559 	EXP 	trialSquare: pos = array([0.2, 0. ])
+182.5559 	EXP 	trialGrid: autoDraw = True
+182.5559 	EXP 	trialSquare: autoDraw = True
+183.5372 	EXP 	trialFix: autoDraw = True
+183.5706 	EXP 	trialSquare: autoDraw = False
+184.5386 	EXP 	trialFix: autoDraw = False
+184.5409 	EXP 	New trial (rep=0, index=14): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 75)])
+184.5557 	EXP 	trialGrid: autoDraw = False
+184.5557 	EXP 	trialSquare: autoDraw = False
+184.5557 	EXP 	trialFix: autoDraw = False
+184.5557 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+184.5557 	EXP 	trialGrid: autoDraw = True
+184.5557 	EXP 	trialSquare: autoDraw = True
+185.5370 	EXP 	trialFix: autoDraw = True
+185.5705 	EXP 	trialSquare: autoDraw = False
+186.5396 	EXP 	trialFix: autoDraw = False
+186.5443 	EXP 	New trial (rep=0, index=15): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 76)])
+186.5612 	EXP 	trialGrid: autoDraw = False
+186.5612 	EXP 	trialSquare: autoDraw = False
+186.5612 	EXP 	trialFix: autoDraw = False
+186.5612 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+186.5612 	EXP 	trialGrid: autoDraw = True
+186.5612 	EXP 	trialSquare: autoDraw = True
+187.5379 	EXP 	trialFix: autoDraw = True
+187.5705 	EXP 	trialSquare: autoDraw = False
+188.5396 	EXP 	New trial (rep=0, index=16): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 77)])
+188.5536 	EXP 	trialGrid: autoDraw = False
+188.5536 	EXP 	trialSquare: autoDraw = False
+188.5536 	EXP 	trialFix: autoDraw = False
+188.5536 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+188.5536 	EXP 	trialGrid: autoDraw = True
+188.5536 	EXP 	trialSquare: autoDraw = True
+189.5361 	EXP 	trialFix: autoDraw = True
+189.5523 	EXP 	trialSquare: autoDraw = False
+190.5389 	EXP 	New trial (rep=0, index=17): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 78)])
+190.5519 	EXP 	trialGrid: autoDraw = False
+190.5519 	EXP 	trialSquare: autoDraw = False
+190.5519 	EXP 	trialFix: autoDraw = False
+190.5519 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+190.5519 	EXP 	trialGrid: autoDraw = True
+190.5519 	EXP 	trialSquare: autoDraw = True
+191.5352 	EXP 	trialFix: autoDraw = True
+191.5517 	EXP 	trialSquare: autoDraw = False
+192.5362 	EXP 	trialFix: autoDraw = False
+192.5389 	EXP 	New trial (rep=0, index=18): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 79)])
+192.5517 	EXP 	trialGrid: autoDraw = False
+192.5517 	EXP 	trialSquare: autoDraw = False
+192.5517 	EXP 	trialFix: autoDraw = False
+192.5517 	EXP 	trialSquare: pos = array([0.2, 0.2])
+192.5517 	EXP 	trialGrid: autoDraw = True
+192.5517 	EXP 	trialSquare: autoDraw = True
+193.5355 	EXP 	trialFix: autoDraw = True
+193.5512 	EXP 	trialSquare: autoDraw = False
+194.5359 	EXP 	trialFix: autoDraw = False
+194.5397 	EXP 	New trial (rep=0, index=19): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 80)])
+194.5562 	EXP 	trialGrid: autoDraw = False
+194.5562 	EXP 	trialSquare: autoDraw = False
+194.5562 	EXP 	trialFix: autoDraw = False
+194.5562 	EXP 	trialSquare: pos = array([0., 0.])
+194.5562 	EXP 	trialGrid: autoDraw = True
+194.5562 	EXP 	trialSquare: autoDraw = True
+195.5342 	EXP 	trialFix: autoDraw = True
+195.5670 	EXP 	trialSquare: autoDraw = False
+196.5348 	EXP 	trialFix: autoDraw = False
+196.5377 	EXP 	New trial (rep=0, index=20): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 81)])
+196.5503 	EXP 	trialGrid: autoDraw = False
+196.5503 	EXP 	trialSquare: autoDraw = False
+196.5503 	EXP 	trialFix: autoDraw = False
+196.5503 	EXP 	trialSquare: pos = array([0.2, 0.2])
+196.5503 	EXP 	trialGrid: autoDraw = True
+196.5503 	EXP 	trialSquare: autoDraw = True
+197.5331 	EXP 	trialFix: autoDraw = True
+197.5498 	EXP 	trialSquare: autoDraw = False
+198.5346 	EXP 	trialFix: autoDraw = False
+198.5371 	EXP 	New trial (rep=0, index=21): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 82)])
+198.5493 	EXP 	trialGrid: autoDraw = False
+198.5493 	EXP 	trialSquare: autoDraw = False
+198.5493 	EXP 	trialFix: autoDraw = False
+198.5493 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+198.5493 	EXP 	trialGrid: autoDraw = True
+198.5493 	EXP 	trialSquare: autoDraw = True
+199.5331 	EXP 	trialFix: autoDraw = True
+199.5490 	EXP 	trialSquare: autoDraw = False
+200.5333 	EXP 	trialFix: autoDraw = False
+200.5364 	EXP 	New trial (rep=0, index=22): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 83)])
+200.5489 	EXP 	trialGrid: autoDraw = False
+200.5489 	EXP 	trialSquare: autoDraw = False
+200.5489 	EXP 	trialFix: autoDraw = False
+200.5489 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+200.5489 	EXP 	trialGrid: autoDraw = True
+200.5489 	EXP 	trialSquare: autoDraw = True
+201.5327 	EXP 	trialFix: autoDraw = True
+201.5487 	EXP 	trialSquare: autoDraw = False
+202.5364 	EXP 	New trial (rep=0, index=23): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 84)])
+202.5485 	EXP 	trialGrid: autoDraw = False
+202.5485 	EXP 	trialSquare: autoDraw = False
+202.5485 	EXP 	trialFix: autoDraw = False
+202.5485 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+202.5485 	EXP 	trialGrid: autoDraw = True
+202.5485 	EXP 	trialSquare: autoDraw = True
+203.5329 	EXP 	trialFix: autoDraw = True
+203.5485 	EXP 	trialSquare: autoDraw = False
+204.5365 	EXP 	New trial (rep=0, index=24): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 85)])
+204.5484 	EXP 	trialGrid: autoDraw = False
+204.5484 	EXP 	trialSquare: autoDraw = False
+204.5484 	EXP 	trialFix: autoDraw = False
+204.5484 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+204.5484 	EXP 	trialGrid: autoDraw = True
+204.5484 	EXP 	trialSquare: autoDraw = True
+205.5314 	EXP 	trialFix: autoDraw = True
+205.5476 	EXP 	trialSquare: autoDraw = False
+206.5319 	EXP 	trialFix: autoDraw = False
+206.5347 	EXP 	New trial (rep=0, index=25): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 86)])
+206.5475 	EXP 	trialGrid: autoDraw = False
+206.5475 	EXP 	trialSquare: autoDraw = False
+206.5475 	EXP 	trialFix: autoDraw = False
+206.5475 	EXP 	trialSquare: pos = array([0., 0.])
+206.5475 	EXP 	trialGrid: autoDraw = True
+206.5475 	EXP 	trialSquare: autoDraw = True
+207.5327 	EXP 	trialFix: autoDraw = True
+207.5471 	EXP 	trialSquare: autoDraw = False
+208.5345 	EXP 	New trial (rep=0, index=26): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 87)])
+208.5469 	EXP 	trialGrid: autoDraw = False
+208.5469 	EXP 	trialSquare: autoDraw = False
+208.5469 	EXP 	trialFix: autoDraw = False
+208.5469 	EXP 	trialSquare: pos = array([0. , 0.2])
+208.5469 	EXP 	trialGrid: autoDraw = True
+208.5469 	EXP 	trialSquare: autoDraw = True
+209.5332 	EXP 	trialFix: autoDraw = True
+209.5467 	EXP 	trialSquare: autoDraw = False
+210.5361 	EXP 	New trial (rep=0, index=27): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 88)])
+210.5475 	EXP 	trialGrid: autoDraw = False
+210.5475 	EXP 	trialFix: autoDraw = False
+210.5475 	EXP 	trialGrid: autoDraw = False
+210.5475 	EXP 	trialSquare: autoDraw = False
+210.5475 	EXP 	trialFix: autoDraw = False
+210.5475 	EXP 	trialSquare: pos = array([0.2, 0. ])
+210.5475 	EXP 	trialGrid: autoDraw = True
+210.5475 	EXP 	trialSquare: autoDraw = True
+211.5314 	EXP 	trialFix: autoDraw = True
+211.5460 	EXP 	trialSquare: autoDraw = False
+212.5355 	EXP 	New trial (rep=0, index=28): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 89)])
+212.5467 	EXP 	trialGrid: autoDraw = False
+212.5467 	EXP 	trialFix: autoDraw = False
+212.5467 	EXP 	trialGrid: autoDraw = False
+212.5467 	EXP 	trialSquare: autoDraw = False
+212.5467 	EXP 	trialFix: autoDraw = False
+212.5467 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+212.5467 	EXP 	trialGrid: autoDraw = True
+212.5467 	EXP 	trialSquare: autoDraw = True
+213.5306 	EXP 	trialFix: autoDraw = True
+213.5456 	EXP 	trialSquare: autoDraw = False
+214.5345 	EXP 	New trial (rep=0, index=29): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 90)])
+214.5464 	EXP 	trialGrid: autoDraw = False
+214.5464 	EXP 	trialSquare: autoDraw = False
+214.5464 	EXP 	trialFix: autoDraw = False
+214.5464 	EXP 	trialSquare: pos = array([0.2, 0. ])
+214.5464 	EXP 	trialGrid: autoDraw = True
+214.5464 	EXP 	trialSquare: autoDraw = True
+215.5297 	EXP 	trialFix: autoDraw = True
+215.5450 	EXP 	trialSquare: autoDraw = False
+216.5331 	EXP 	New trial (rep=0, index=30): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 91)])
+216.5453 	EXP 	trialGrid: autoDraw = False
+216.5453 	EXP 	trialFix: autoDraw = False
+216.5453 	EXP 	trialGrid: autoDraw = False
+216.5453 	EXP 	trialSquare: autoDraw = False
+216.5453 	EXP 	trialFix: autoDraw = False
+216.5453 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+216.5453 	EXP 	trialGrid: autoDraw = True
+216.5453 	EXP 	trialSquare: autoDraw = True
+217.5291 	EXP 	trialFix: autoDraw = True
+217.5445 	EXP 	trialSquare: autoDraw = False
+218.5328 	EXP 	New trial (rep=0, index=31): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 92)])
+218.5451 	EXP 	trialGrid: autoDraw = False
+218.5451 	EXP 	trialFix: autoDraw = False
+218.5451 	EXP 	trialGrid: autoDraw = False
+218.5451 	EXP 	trialSquare: autoDraw = False
+218.5451 	EXP 	trialFix: autoDraw = False
+218.5451 	EXP 	trialSquare: pos = array([0. , 0.2])
+218.5451 	EXP 	trialGrid: autoDraw = True
+218.5451 	EXP 	trialSquare: autoDraw = True
+219.5295 	EXP 	trialFix: autoDraw = True
+219.5440 	EXP 	trialSquare: autoDraw = False
+220.5335 	EXP 	New trial (rep=0, index=32): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 93)])
+220.5454 	EXP 	trialGrid: autoDraw = False
+220.5454 	EXP 	trialFix: autoDraw = False
+220.5454 	EXP 	trialGrid: autoDraw = False
+220.5454 	EXP 	trialSquare: autoDraw = False
+220.5454 	EXP 	trialFix: autoDraw = False
+220.5454 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+220.5454 	EXP 	trialGrid: autoDraw = True
+220.5454 	EXP 	trialSquare: autoDraw = True
+221.5292 	EXP 	trialFix: autoDraw = True
+221.5435 	EXP 	trialSquare: autoDraw = False
+222.5320 	EXP 	New trial (rep=0, index=33): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 94)])
+222.5438 	EXP 	trialGrid: autoDraw = False
+222.5438 	EXP 	trialFix: autoDraw = False
+222.5438 	EXP 	trialGrid: autoDraw = False
+222.5438 	EXP 	trialSquare: autoDraw = False
+222.5438 	EXP 	trialFix: autoDraw = False
+222.5438 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+222.5438 	EXP 	trialGrid: autoDraw = True
+222.5438 	EXP 	trialSquare: autoDraw = True
+223.5278 	EXP 	trialFix: autoDraw = True
+223.5430 	EXP 	trialSquare: autoDraw = False
+224.5319 	EXP 	New trial (rep=0, index=34): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 95)])
+224.5434 	EXP 	trialGrid: autoDraw = False
+224.5434 	EXP 	trialFix: autoDraw = False
+224.5434 	EXP 	trialGrid: autoDraw = False
+224.5434 	EXP 	trialSquare: autoDraw = False
+224.5434 	EXP 	trialFix: autoDraw = False
+224.5434 	EXP 	trialSquare: pos = array([0.2, 0. ])
+224.5434 	EXP 	trialGrid: autoDraw = True
+224.5434 	EXP 	trialSquare: autoDraw = True
+225.5277 	EXP 	trialFix: autoDraw = True
+225.5426 	EXP 	trialSquare: autoDraw = False
+226.5309 	EXP 	New trial (rep=0, index=35): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 96)])
+226.5428 	EXP 	trialGrid: autoDraw = False
+226.5428 	EXP 	trialFix: autoDraw = False
+226.5428 	EXP 	trialGrid: autoDraw = False
+226.5428 	EXP 	trialSquare: autoDraw = False
+226.5428 	EXP 	trialFix: autoDraw = False
+226.5428 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+226.5428 	EXP 	trialGrid: autoDraw = True
+226.5428 	EXP 	trialSquare: autoDraw = True
+227.5278 	EXP 	trialFix: autoDraw = True
+227.5420 	EXP 	trialSquare: autoDraw = False
+228.5302 	EXP 	New trial (rep=0, index=36): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 97)])
+228.5425 	EXP 	trialGrid: autoDraw = False
+228.5425 	EXP 	trialFix: autoDraw = False
+228.5425 	EXP 	trialGrid: autoDraw = False
+228.5425 	EXP 	trialSquare: autoDraw = False
+228.5425 	EXP 	trialFix: autoDraw = False
+228.5425 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+228.5425 	EXP 	trialGrid: autoDraw = True
+228.5425 	EXP 	trialSquare: autoDraw = True
+229.5265 	EXP 	trialFix: autoDraw = True
+229.5416 	EXP 	trialSquare: autoDraw = False
+230.5306 	EXP 	New trial (rep=0, index=37): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 98)])
+230.5420 	EXP 	trialGrid: autoDraw = False
+230.5420 	EXP 	trialFix: autoDraw = False
+230.5420 	EXP 	trialGrid: autoDraw = False
+230.5420 	EXP 	trialSquare: autoDraw = False
+230.5420 	EXP 	trialFix: autoDraw = False
+230.5420 	EXP 	trialSquare: pos = array([0.2, 0.2])
+230.5420 	EXP 	trialGrid: autoDraw = True
+230.5420 	EXP 	trialSquare: autoDraw = True
+231.5264 	EXP 	trialFix: autoDraw = True
+231.5411 	EXP 	trialSquare: autoDraw = False
+232.5301 	EXP 	New trial (rep=0, index=38): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 99)])
+232.5418 	EXP 	trialGrid: autoDraw = False
+232.5418 	EXP 	trialFix: autoDraw = False
+232.5418 	EXP 	trialGrid: autoDraw = False
+232.5418 	EXP 	trialSquare: autoDraw = False
+232.5418 	EXP 	trialFix: autoDraw = False
+232.5418 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+232.5418 	EXP 	trialGrid: autoDraw = True
+232.5418 	EXP 	trialSquare: autoDraw = True
+233.5263 	EXP 	trialFix: autoDraw = True
+233.5407 	EXP 	trialSquare: autoDraw = False
+234.5301 	EXP 	New trial (rep=0, index=39): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 100)])
+234.5428 	EXP 	trialGrid: autoDraw = False
+234.5428 	EXP 	trialFix: autoDraw = False
+234.5428 	EXP 	trialGrid: autoDraw = False
+234.5428 	EXP 	trialSquare: autoDraw = False
+234.5428 	EXP 	trialFix: autoDraw = False
+234.5428 	EXP 	trialSquare: pos = array([0.2, 0.2])
+234.5428 	EXP 	trialGrid: autoDraw = True
+234.5428 	EXP 	trialSquare: autoDraw = True
+235.5262 	EXP 	trialFix: autoDraw = True
+235.5400 	EXP 	trialSquare: autoDraw = False
+236.5297 	EXP 	New trial (rep=0, index=40): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 101)])
+236.5420 	EXP 	trialGrid: autoDraw = False
+236.5420 	EXP 	trialFix: autoDraw = False
+236.5420 	EXP 	trialGrid: autoDraw = False
+236.5420 	EXP 	trialSquare: autoDraw = False
+236.5420 	EXP 	trialFix: autoDraw = False
+236.5420 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+236.5420 	EXP 	trialGrid: autoDraw = True
+236.5420 	EXP 	trialSquare: autoDraw = True
+237.5262 	EXP 	trialFix: autoDraw = True
+237.5399 	EXP 	trialSquare: autoDraw = False
+238.5302 	EXP 	New trial (rep=0, index=41): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 102)])
+238.5425 	EXP 	trialGrid: autoDraw = False
+238.5425 	EXP 	trialFix: autoDraw = False
+238.5425 	EXP 	trialGrid: autoDraw = False
+238.5425 	EXP 	trialSquare: autoDraw = False
+238.5425 	EXP 	trialFix: autoDraw = False
+238.5425 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+238.5425 	EXP 	trialGrid: autoDraw = True
+238.5425 	EXP 	trialSquare: autoDraw = True
+239.5239 	EXP 	trialFix: autoDraw = True
+239.5574 	EXP 	trialSquare: autoDraw = False
+240.5397 	EXP 	trialFix: autoDraw = False
+240.5425 	EXP 	New trial (rep=0, index=42): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 103)])
+240.5575 	EXP 	trialGrid: autoDraw = False
+240.5575 	EXP 	trialSquare: autoDraw = False
+240.5575 	EXP 	trialFix: autoDraw = False
+240.5575 	EXP 	trialSquare: pos = array([0. , 0.2])
+240.5575 	EXP 	trialGrid: autoDraw = True
+240.5575 	EXP 	trialSquare: autoDraw = True
+241.5387 	EXP 	trialFix: autoDraw = True
+241.5724 	EXP 	trialSquare: autoDraw = False
+242.5395 	EXP 	trialFix: autoDraw = False
+242.5420 	EXP 	New trial (rep=0, index=43): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 104)])
+242.5564 	EXP 	trialGrid: autoDraw = False
+242.5564 	EXP 	trialSquare: autoDraw = False
+242.5564 	EXP 	trialFix: autoDraw = False
+242.5564 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+242.5564 	EXP 	trialGrid: autoDraw = True
+242.5564 	EXP 	trialSquare: autoDraw = True
+243.5400 	EXP 	trialFix: autoDraw = True
+243.5563 	EXP 	trialSquare: autoDraw = False
+244.5386 	EXP 	trialFix: autoDraw = False
+244.5414 	EXP 	New trial (rep=0, index=44): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 105)])
+244.5559 	EXP 	trialGrid: autoDraw = False
+244.5559 	EXP 	trialSquare: autoDraw = False
+244.5559 	EXP 	trialFix: autoDraw = False
+244.5559 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+244.5559 	EXP 	trialGrid: autoDraw = True
+244.5559 	EXP 	trialSquare: autoDraw = True
+245.5390 	EXP 	trialFix: autoDraw = True
+245.5548 	EXP 	trialSquare: autoDraw = False
+246.5387 	EXP 	trialFix: autoDraw = False
+246.5414 	EXP 	New trial (rep=0, index=45): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 106)])
+246.5558 	EXP 	trialGrid: autoDraw = False
+246.5558 	EXP 	trialSquare: autoDraw = False
+246.5558 	EXP 	trialFix: autoDraw = False
+246.5558 	EXP 	trialSquare: pos = array([0., 0.])
+246.5558 	EXP 	trialGrid: autoDraw = True
+246.5558 	EXP 	trialSquare: autoDraw = True
+247.5380 	EXP 	trialFix: autoDraw = True
+247.5716 	EXP 	trialSquare: autoDraw = False
+248.5381 	EXP 	trialFix: autoDraw = False
+248.5411 	EXP 	New trial (rep=0, index=46): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 107)])
+248.5559 	EXP 	trialGrid: autoDraw = False
+248.5559 	EXP 	trialSquare: autoDraw = False
+248.5559 	EXP 	trialFix: autoDraw = False
+248.5559 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+248.5559 	EXP 	trialGrid: autoDraw = True
+248.5559 	EXP 	trialSquare: autoDraw = True
+249.5376 	EXP 	trialFix: autoDraw = True
+249.5706 	EXP 	trialSquare: autoDraw = False
+250.5383 	EXP 	trialFix: autoDraw = False
+250.5409 	EXP 	New trial (rep=0, index=47): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 108)])
+250.5543 	EXP 	trialGrid: autoDraw = False
+250.5543 	EXP 	trialSquare: autoDraw = False
+250.5543 	EXP 	trialFix: autoDraw = False
+250.5543 	EXP 	trialSquare: pos = array([0., 0.])
+250.5543 	EXP 	trialGrid: autoDraw = True
+250.5543 	EXP 	trialSquare: autoDraw = True
+251.5368 	EXP 	trialFix: autoDraw = True
+251.5546 	EXP 	trialSquare: autoDraw = False
+252.5370 	EXP 	trialFix: autoDraw = False
+252.5396 	EXP 	New trial (rep=0, index=48): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 109)])
+252.5530 	EXP 	trialGrid: autoDraw = False
+252.5530 	EXP 	trialSquare: autoDraw = False
+252.5530 	EXP 	trialFix: autoDraw = False
+252.5530 	EXP 	trialSquare: pos = array([0.2, 0.2])
+252.5530 	EXP 	trialGrid: autoDraw = True
+252.5530 	EXP 	trialSquare: autoDraw = True
+253.5364 	EXP 	trialFix: autoDraw = True
+253.5537 	EXP 	trialSquare: autoDraw = False
+254.5373 	EXP 	trialFix: autoDraw = False
+254.5399 	EXP 	New trial (rep=0, index=49): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 110)])
+254.5528 	EXP 	trialGrid: autoDraw = False
+254.5528 	EXP 	trialSquare: autoDraw = False
+254.5528 	EXP 	trialFix: autoDraw = False
+254.5528 	EXP 	trialSquare: pos = array([0.2, 0. ])
+254.5528 	EXP 	trialGrid: autoDraw = True
+254.5528 	EXP 	trialSquare: autoDraw = True
+255.5358 	EXP 	trialFix: autoDraw = True
+255.5521 	EXP 	trialSquare: autoDraw = False
+256.5368 	EXP 	trialFix: autoDraw = False
+256.5390 	EXP 	New trial (rep=0, index=50): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 111)])
+256.5525 	EXP 	trialGrid: autoDraw = False
+256.5525 	EXP 	trialSquare: autoDraw = False
+256.5525 	EXP 	trialFix: autoDraw = False
+256.5525 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+256.5525 	EXP 	trialGrid: autoDraw = True
+256.5525 	EXP 	trialSquare: autoDraw = True
+257.5351 	EXP 	trialFix: autoDraw = True
+257.5519 	EXP 	trialSquare: autoDraw = False
+258.5353 	EXP 	trialFix: autoDraw = False
+258.5380 	EXP 	New trial (rep=0, index=51): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 112)])
+258.5517 	EXP 	trialGrid: autoDraw = False
+258.5517 	EXP 	trialSquare: autoDraw = False
+258.5517 	EXP 	trialFix: autoDraw = False
+258.5517 	EXP 	trialSquare: pos = array([0.2, 0.2])
+258.5517 	EXP 	trialGrid: autoDraw = True
+258.5517 	EXP 	trialSquare: autoDraw = True
+259.5348 	EXP 	trialFix: autoDraw = True
+259.5511 	EXP 	trialSquare: autoDraw = False
+260.5348 	EXP 	trialFix: autoDraw = False
+260.5379 	EXP 	New trial (rep=0, index=52): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 113)])
+260.5510 	EXP 	trialGrid: autoDraw = False
+260.5510 	EXP 	trialSquare: autoDraw = False
+260.5510 	EXP 	trialFix: autoDraw = False
+260.5510 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+260.5510 	EXP 	trialGrid: autoDraw = True
+260.5510 	EXP 	trialSquare: autoDraw = True
+261.5340 	EXP 	trialFix: autoDraw = True
+261.5505 	EXP 	trialSquare: autoDraw = False
+262.5346 	EXP 	trialFix: autoDraw = False
+262.5377 	EXP 	New trial (rep=0, index=53): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 114)])
+262.5505 	EXP 	trialGrid: autoDraw = False
+262.5505 	EXP 	trialSquare: autoDraw = False
+262.5505 	EXP 	trialFix: autoDraw = False
+262.5505 	EXP 	trialSquare: pos = array([0. , 0.2])
+262.5505 	EXP 	trialGrid: autoDraw = True
+262.5505 	EXP 	trialSquare: autoDraw = True
+263.5339 	EXP 	trialFix: autoDraw = True
+263.5500 	EXP 	trialSquare: autoDraw = False
+264.5344 	EXP 	trialFix: autoDraw = False
+264.5371 	EXP 	New trial (rep=0, index=54): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 115)])
+264.5496 	EXP 	trialGrid: autoDraw = False
+264.5496 	EXP 	trialSquare: autoDraw = False
+264.5496 	EXP 	trialFix: autoDraw = False
+264.5496 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+264.5496 	EXP 	trialGrid: autoDraw = True
+264.5496 	EXP 	trialSquare: autoDraw = True
+265.4883 	DATA 	Keypress: space
+265.5330 	EXP 	trialFix: autoDraw = True
+265.5494 	EXP 	trialSquare: autoDraw = False
+266.5343 	EXP 	trialFix: autoDraw = False
+266.5372 	EXP 	New trial (rep=0, index=55): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 116)])
+266.5493 	EXP 	trialGrid: autoDraw = False
+266.5493 	EXP 	trialSquare: autoDraw = False
+266.5493 	EXP 	trialFix: autoDraw = False
+266.5493 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+266.5493 	EXP 	trialGrid: autoDraw = True
+266.5493 	EXP 	trialSquare: autoDraw = True
+267.5330 	EXP 	trialFix: autoDraw = True
+267.5489 	EXP 	trialSquare: autoDraw = False
+268.5363 	EXP 	New trial (rep=0, index=56): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 117)])
+268.5486 	EXP 	trialGrid: autoDraw = False
+268.5486 	EXP 	trialSquare: autoDraw = False
+268.5486 	EXP 	trialFix: autoDraw = False
+268.5486 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+268.5486 	EXP 	trialGrid: autoDraw = True
+268.5486 	EXP 	trialSquare: autoDraw = True
+269.5325 	EXP 	trialFix: autoDraw = True
+269.5485 	EXP 	trialSquare: autoDraw = False
+270.5360 	EXP 	New trial (rep=0, index=57): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 2), ('trialNum', 118)])
+270.5483 	EXP 	trialGrid: autoDraw = False
+270.5483 	EXP 	trialSquare: autoDraw = False
+270.5483 	EXP 	trialFix: autoDraw = False
+270.5483 	EXP 	trialSquare: pos = array([0. , 0.2])
+270.5483 	EXP 	trialGrid: autoDraw = True
+270.5483 	EXP 	trialSquare: autoDraw = True
+271.5326 	EXP 	trialFix: autoDraw = True
+271.5477 	EXP 	trialSquare: autoDraw = False
+272.5340 	EXP 	New trial (rep=0, index=58): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 2), ('trialNum', 119)])
+272.5475 	EXP 	trialGrid: autoDraw = False
+272.5475 	EXP 	trialSquare: autoDraw = False
+272.5475 	EXP 	trialFix: autoDraw = False
+272.5475 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+272.5475 	EXP 	trialGrid: autoDraw = True
+272.5475 	EXP 	trialSquare: autoDraw = True
+273.5314 	EXP 	trialFix: autoDraw = True
+273.5473 	EXP 	trialSquare: autoDraw = False
+274.5350 	EXP 	New trial (rep=0, index=59): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 2), ('trialNum', 120)])
+274.5472 	EXP 	trialGrid: autoDraw = False
+274.5472 	EXP 	trialSquare: autoDraw = False
+274.5472 	EXP 	trialFix: autoDraw = False
+274.5472 	EXP 	trialSquare: pos = array([0.2, 0. ])
+274.5472 	EXP 	trialGrid: autoDraw = True
+274.5472 	EXP 	trialSquare: autoDraw = True
+275.5313 	EXP 	trialFix: autoDraw = True
+275.5468 	EXP 	trialSquare: autoDraw = False
+276.5465 	EXP 	trialGrid: autoDraw = False
+276.5465 	EXP 	trialSquare: autoDraw = False
+276.5465 	EXP 	trialFix: autoDraw = False
+276.5465 	EXP 	instr3: autoDraw = True
+282.2872 	DATA 	Keypress: s
+282.2958 	EXP 	instr3: autoDraw = False
+282.2958 	EXP 	fix3: autoDraw = True
+283.3142 	EXP 	Imported nBackCond3.xlsx as conditions, 60 conditions, 6 params
+283.3151 	EXP 	Created sequence: sequential, trialTypes=60, nReps=1, seed=None
+283.3159 	EXP 	New trial (rep=0, index=0): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 121)])
+283.3318 	EXP 	fix3: autoDraw = False
+283.3318 	EXP 	fix3: autoDraw = False
+283.3318 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+283.3318 	EXP 	trialGrid: autoDraw = True
+283.3318 	EXP 	trialSquare: autoDraw = True
+284.3114 	EXP 	trialFix: autoDraw = True
+284.3447 	EXP 	trialSquare: autoDraw = False
+285.3013 	EXP 	New trial (rep=0, index=1): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 122)])
+285.3139 	EXP 	trialGrid: autoDraw = False
+285.3139 	EXP 	trialSquare: autoDraw = False
+285.3139 	EXP 	trialFix: autoDraw = False
+285.3139 	EXP 	trialSquare: pos = array([0. , 0.2])
+285.3139 	EXP 	trialGrid: autoDraw = True
+285.3139 	EXP 	trialSquare: autoDraw = True
+286.2970 	EXP 	trialFix: autoDraw = True
+286.3113 	EXP 	trialSquare: autoDraw = False
+287.2993 	EXP 	trialFix: autoDraw = False
+287.3036 	EXP 	New trial (rep=0, index=2): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 123)])
+287.3151 	EXP 	trialGrid: autoDraw = False
+287.3151 	EXP 	trialSquare: autoDraw = False
+287.3151 	EXP 	trialFix: autoDraw = False
+287.3151 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+287.3151 	EXP 	trialGrid: autoDraw = True
+287.3151 	EXP 	trialSquare: autoDraw = True
+288.2963 	EXP 	trialFix: autoDraw = True
+288.3297 	EXP 	trialSquare: autoDraw = False
+289.2986 	EXP 	New trial (rep=0, index=3): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 124)])
+289.3107 	EXP 	trialGrid: autoDraw = False
+289.3107 	EXP 	trialSquare: autoDraw = False
+289.3107 	EXP 	trialFix: autoDraw = False
+289.3107 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+289.3107 	EXP 	trialGrid: autoDraw = True
+289.3107 	EXP 	trialSquare: autoDraw = True
+289.6675 	DATA 	Keypress: space
+290.2961 	EXP 	trialFix: autoDraw = True
+290.3104 	EXP 	trialSquare: autoDraw = False
+291.2981 	EXP 	New trial (rep=0, index=4): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 125)])
+291.3103 	EXP 	trialGrid: autoDraw = False
+291.3103 	EXP 	trialSquare: autoDraw = False
+291.3103 	EXP 	trialFix: autoDraw = False
+291.3103 	EXP 	trialSquare: pos = array([0.2, 0.2])
+291.3103 	EXP 	trialGrid: autoDraw = True
+291.3103 	EXP 	trialSquare: autoDraw = True
+292.2935 	EXP 	trialFix: autoDraw = True
+292.3094 	EXP 	trialSquare: autoDraw = False
+293.2974 	EXP 	New trial (rep=0, index=5): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 126)])
+293.3097 	EXP 	trialGrid: autoDraw = False
+293.3097 	EXP 	trialSquare: autoDraw = False
+293.3097 	EXP 	trialFix: autoDraw = False
+293.3097 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+293.3097 	EXP 	trialGrid: autoDraw = True
+293.3097 	EXP 	trialSquare: autoDraw = True
+294.2938 	EXP 	trialFix: autoDraw = True
+294.3096 	EXP 	trialSquare: autoDraw = False
+295.2964 	EXP 	New trial (rep=0, index=6): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 127)])
+295.3089 	EXP 	trialGrid: autoDraw = False
+295.3089 	EXP 	trialSquare: autoDraw = False
+295.3089 	EXP 	trialFix: autoDraw = False
+295.3089 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+295.3089 	EXP 	trialGrid: autoDraw = True
+295.3089 	EXP 	trialSquare: autoDraw = True
+296.2944 	EXP 	trialFix: autoDraw = True
+296.3085 	EXP 	trialSquare: autoDraw = False
+297.2956 	EXP 	New trial (rep=0, index=7): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 128)])
+297.3086 	EXP 	trialGrid: autoDraw = False
+297.3086 	EXP 	trialSquare: autoDraw = False
+297.3086 	EXP 	trialFix: autoDraw = False
+297.3086 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+297.3086 	EXP 	trialGrid: autoDraw = True
+297.3086 	EXP 	trialSquare: autoDraw = True
+298.2932 	EXP 	trialFix: autoDraw = True
+298.3089 	EXP 	trialSquare: autoDraw = False
+299.2955 	EXP 	New trial (rep=0, index=8): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 129)])
+299.3080 	EXP 	trialGrid: autoDraw = False
+299.3080 	EXP 	trialSquare: autoDraw = False
+299.3080 	EXP 	trialFix: autoDraw = False
+299.3080 	EXP 	trialSquare: pos = array([0.2, 0. ])
+299.3080 	EXP 	trialGrid: autoDraw = True
+299.3080 	EXP 	trialSquare: autoDraw = True
+300.2940 	EXP 	trialFix: autoDraw = True
+300.3083 	EXP 	trialSquare: autoDraw = False
+301.2958 	EXP 	New trial (rep=0, index=9): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 130)])
+301.3090 	EXP 	trialGrid: autoDraw = False
+301.3090 	EXP 	trialSquare: autoDraw = False
+301.3090 	EXP 	trialFix: autoDraw = False
+301.3090 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+301.3090 	EXP 	trialGrid: autoDraw = True
+301.3090 	EXP 	trialSquare: autoDraw = True
+302.2917 	EXP 	trialFix: autoDraw = True
+302.3078 	EXP 	trialSquare: autoDraw = False
+303.2956 	EXP 	New trial (rep=0, index=10): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 131)])
+303.3087 	EXP 	trialGrid: autoDraw = False
+303.3087 	EXP 	trialSquare: autoDraw = False
+303.3087 	EXP 	trialFix: autoDraw = False
+303.3087 	EXP 	trialSquare: pos = array([0., 0.])
+303.3087 	EXP 	trialGrid: autoDraw = True
+303.3087 	EXP 	trialSquare: autoDraw = True
+304.2930 	EXP 	trialFix: autoDraw = True
+304.3073 	EXP 	trialSquare: autoDraw = False
+305.2931 	EXP 	New trial (rep=0, index=11): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 132)])
+305.3064 	EXP 	trialGrid: autoDraw = False
+305.3064 	EXP 	trialSquare: autoDraw = False
+305.3064 	EXP 	trialFix: autoDraw = False
+305.3064 	EXP 	trialSquare: pos = array([0.2, 0. ])
+305.3064 	EXP 	trialGrid: autoDraw = True
+305.3064 	EXP 	trialSquare: autoDraw = True
+306.2933 	EXP 	trialFix: autoDraw = True
+306.3074 	EXP 	trialSquare: autoDraw = False
+307.2931 	EXP 	New trial (rep=0, index=12): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 133)])
+307.3064 	EXP 	trialGrid: autoDraw = False
+307.3064 	EXP 	trialSquare: autoDraw = False
+307.3064 	EXP 	trialFix: autoDraw = False
+307.3064 	EXP 	trialSquare: pos = array([0.2, 0.2])
+307.3064 	EXP 	trialGrid: autoDraw = True
+307.3064 	EXP 	trialSquare: autoDraw = True
+308.2910 	EXP 	trialFix: autoDraw = True
+308.3064 	EXP 	trialSquare: autoDraw = False
+309.2931 	EXP 	New trial (rep=0, index=13): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 134)])
+309.3066 	EXP 	trialGrid: autoDraw = False
+309.3066 	EXP 	trialSquare: autoDraw = False
+309.3066 	EXP 	trialFix: autoDraw = False
+309.3066 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+309.3066 	EXP 	trialGrid: autoDraw = True
+309.3066 	EXP 	trialSquare: autoDraw = True
+310.2901 	EXP 	trialFix: autoDraw = True
+310.3063 	EXP 	trialSquare: autoDraw = False
+311.2917 	EXP 	New trial (rep=0, index=14): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 135)])
+311.3052 	EXP 	trialGrid: autoDraw = False
+311.3052 	EXP 	trialSquare: autoDraw = False
+311.3052 	EXP 	trialFix: autoDraw = False
+311.3052 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+311.3052 	EXP 	trialGrid: autoDraw = True
+311.3052 	EXP 	trialSquare: autoDraw = True
+312.2921 	EXP 	trialFix: autoDraw = True
+312.3062 	EXP 	trialSquare: autoDraw = False
+313.2924 	EXP 	New trial (rep=0, index=15): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 136)])
+313.3054 	EXP 	trialGrid: autoDraw = False
+313.3054 	EXP 	trialSquare: autoDraw = False
+313.3054 	EXP 	trialFix: autoDraw = False
+313.3054 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+313.3054 	EXP 	trialGrid: autoDraw = True
+313.3054 	EXP 	trialSquare: autoDraw = True
+314.2883 	EXP 	trialFix: autoDraw = True
+314.3056 	EXP 	trialSquare: autoDraw = False
+315.2878 	EXP 	trialFix: autoDraw = False
+315.2904 	EXP 	New trial (rep=0, index=16): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 137)])
+315.3050 	EXP 	trialGrid: autoDraw = False
+315.3050 	EXP 	trialSquare: autoDraw = False
+315.3050 	EXP 	trialFix: autoDraw = False
+315.3050 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+315.3050 	EXP 	trialGrid: autoDraw = True
+315.3050 	EXP 	trialSquare: autoDraw = True
+316.2876 	EXP 	trialFix: autoDraw = True
+316.3047 	EXP 	trialSquare: autoDraw = False
+317.2925 	EXP 	trialFix: autoDraw = False
+317.2963 	EXP 	New trial (rep=0, index=17): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 138)])
+317.3071 	EXP 	trialGrid: autoDraw = False
+317.3071 	EXP 	trialSquare: autoDraw = False
+317.3071 	EXP 	trialFix: autoDraw = False
+317.3071 	EXP 	trialSquare: pos = array([0.2, 0.2])
+317.3071 	EXP 	trialGrid: autoDraw = True
+317.3071 	EXP 	trialSquare: autoDraw = True
+318.2870 	EXP 	trialFix: autoDraw = True
+318.3210 	EXP 	trialSquare: autoDraw = False
+319.2868 	EXP 	trialFix: autoDraw = False
+319.2898 	EXP 	New trial (rep=0, index=18): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 139)])
+319.3044 	EXP 	trialGrid: autoDraw = False
+319.3044 	EXP 	trialSquare: autoDraw = False
+319.3044 	EXP 	trialFix: autoDraw = False
+319.3044 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+319.3044 	EXP 	trialGrid: autoDraw = True
+319.3044 	EXP 	trialSquare: autoDraw = True
+320.2863 	EXP 	trialFix: autoDraw = True
+320.3200 	EXP 	trialSquare: autoDraw = False
+321.2860 	EXP 	trialFix: autoDraw = False
+321.2897 	EXP 	New trial (rep=0, index=19): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 140)])
+321.3040 	EXP 	trialGrid: autoDraw = False
+321.3040 	EXP 	trialSquare: autoDraw = False
+321.3040 	EXP 	trialFix: autoDraw = False
+321.3040 	EXP 	trialSquare: pos = array([0., 0.])
+321.3040 	EXP 	trialGrid: autoDraw = True
+321.3040 	EXP 	trialSquare: autoDraw = True
+322.2871 	EXP 	trialFix: autoDraw = True
+322.3036 	EXP 	trialSquare: autoDraw = False
+323.2855 	EXP 	trialFix: autoDraw = False
+323.2890 	EXP 	New trial (rep=0, index=20): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 141)])
+323.3036 	EXP 	trialGrid: autoDraw = False
+323.3036 	EXP 	trialSquare: autoDraw = False
+323.3036 	EXP 	trialFix: autoDraw = False
+323.3036 	EXP 	trialSquare: pos = array([0.2, 0.2])
+323.3036 	EXP 	trialGrid: autoDraw = True
+323.3036 	EXP 	trialSquare: autoDraw = True
+324.2855 	EXP 	trialFix: autoDraw = True
+324.3190 	EXP 	trialSquare: autoDraw = False
+325.2852 	EXP 	trialFix: autoDraw = False
+325.2884 	EXP 	New trial (rep=0, index=21): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 142)])
+325.3032 	EXP 	trialGrid: autoDraw = False
+325.3032 	EXP 	trialSquare: autoDraw = False
+325.3032 	EXP 	trialFix: autoDraw = False
+325.3032 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+325.3032 	EXP 	trialGrid: autoDraw = True
+325.3032 	EXP 	trialSquare: autoDraw = True
+326.2846 	EXP 	trialFix: autoDraw = True
+326.3182 	EXP 	trialSquare: autoDraw = False
+327.2844 	EXP 	trialFix: autoDraw = False
+327.2879 	EXP 	New trial (rep=0, index=22): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 143)])
+327.3025 	EXP 	trialGrid: autoDraw = False
+327.3025 	EXP 	trialSquare: autoDraw = False
+327.3025 	EXP 	trialFix: autoDraw = False
+327.3025 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+327.3025 	EXP 	trialGrid: autoDraw = True
+327.3025 	EXP 	trialSquare: autoDraw = True
+328.2839 	EXP 	trialFix: autoDraw = True
+328.3176 	EXP 	trialSquare: autoDraw = False
+329.2837 	EXP 	trialFix: autoDraw = False
+329.2873 	EXP 	New trial (rep=0, index=23): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 144)])
+329.3017 	EXP 	trialGrid: autoDraw = False
+329.3017 	EXP 	trialSquare: autoDraw = False
+329.3017 	EXP 	trialFix: autoDraw = False
+329.3017 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+329.3017 	EXP 	trialGrid: autoDraw = True
+329.3017 	EXP 	trialSquare: autoDraw = True
+330.2835 	EXP 	trialFix: autoDraw = True
+330.3167 	EXP 	trialSquare: autoDraw = False
+331.2832 	EXP 	trialFix: autoDraw = False
+331.2874 	EXP 	New trial (rep=0, index=24): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 145)])
+331.3014 	EXP 	trialGrid: autoDraw = False
+331.3014 	EXP 	trialSquare: autoDraw = False
+331.3014 	EXP 	trialFix: autoDraw = False
+331.3014 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+331.3014 	EXP 	trialGrid: autoDraw = True
+331.3014 	EXP 	trialSquare: autoDraw = True
+332.2828 	EXP 	trialFix: autoDraw = True
+332.3165 	EXP 	trialSquare: autoDraw = False
+333.2825 	EXP 	trialFix: autoDraw = False
+333.3031 	EXP 	New trial (rep=0, index=25): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 146)])
+333.3160 	EXP 	trialGrid: autoDraw = False
+333.3160 	EXP 	trialSquare: autoDraw = False
+333.3160 	EXP 	trialFix: autoDraw = False
+333.3160 	EXP 	trialSquare: pos = array([0., 0.])
+333.3160 	EXP 	trialGrid: autoDraw = True
+333.3160 	EXP 	trialSquare: autoDraw = True
+334.2994 	EXP 	trialFix: autoDraw = True
+334.3156 	EXP 	trialSquare: autoDraw = False
+335.3004 	EXP 	trialFix: autoDraw = False
+335.3032 	EXP 	New trial (rep=0, index=26): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 147)])
+335.3154 	EXP 	trialGrid: autoDraw = False
+335.3154 	EXP 	trialSquare: autoDraw = False
+335.3154 	EXP 	trialFix: autoDraw = False
+335.3154 	EXP 	trialSquare: pos = array([0. , 0.2])
+335.3154 	EXP 	trialGrid: autoDraw = True
+335.3154 	EXP 	trialSquare: autoDraw = True
+336.2991 	EXP 	trialFix: autoDraw = True
+336.3153 	EXP 	trialSquare: autoDraw = False
+337.3017 	EXP 	New trial (rep=0, index=27): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 148)])
+337.3148 	EXP 	trialGrid: autoDraw = False
+337.3148 	EXP 	trialSquare: autoDraw = False
+337.3148 	EXP 	trialFix: autoDraw = False
+337.3148 	EXP 	trialSquare: pos = array([0.2, 0. ])
+337.3148 	EXP 	trialGrid: autoDraw = True
+337.3148 	EXP 	trialSquare: autoDraw = True
+338.2990 	EXP 	trialFix: autoDraw = True
+338.3148 	EXP 	trialSquare: autoDraw = False
+339.3022 	EXP 	New trial (rep=0, index=28): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 149)])
+339.3144 	EXP 	trialGrid: autoDraw = False
+339.3144 	EXP 	trialSquare: autoDraw = False
+339.3144 	EXP 	trialFix: autoDraw = False
+339.3144 	EXP 	trialSquare: pos = array([0., 0.])
+339.3144 	EXP 	trialGrid: autoDraw = True
+339.3144 	EXP 	trialSquare: autoDraw = True
+340.2990 	EXP 	trialFix: autoDraw = True
+340.3140 	EXP 	trialSquare: autoDraw = False
+341.3004 	EXP 	New trial (rep=0, index=29): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 150)])
+341.3139 	EXP 	trialGrid: autoDraw = False
+341.3139 	EXP 	trialSquare: autoDraw = False
+341.3139 	EXP 	trialFix: autoDraw = False
+341.3139 	EXP 	trialSquare: pos = array([0. , 0.2])
+341.3139 	EXP 	trialGrid: autoDraw = True
+341.3139 	EXP 	trialSquare: autoDraw = True
+342.2990 	EXP 	trialFix: autoDraw = True
+342.3137 	EXP 	trialSquare: autoDraw = False
+343.3005 	EXP 	New trial (rep=0, index=30): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 151)])
+343.3133 	EXP 	trialGrid: autoDraw = False
+343.3133 	EXP 	trialSquare: autoDraw = False
+343.3133 	EXP 	trialFix: autoDraw = False
+343.3133 	EXP 	trialSquare: pos = array([0., 0.])
+343.3133 	EXP 	trialGrid: autoDraw = True
+343.3133 	EXP 	trialSquare: autoDraw = True
+344.2991 	EXP 	trialFix: autoDraw = True
+344.3131 	EXP 	trialSquare: autoDraw = False
+345.3004 	EXP 	New trial (rep=0, index=31): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 152)])
+345.3131 	EXP 	trialGrid: autoDraw = False
+345.3131 	EXP 	trialSquare: autoDraw = False
+345.3131 	EXP 	trialFix: autoDraw = False
+345.3131 	EXP 	trialSquare: pos = array([0. , 0.2])
+345.3131 	EXP 	trialGrid: autoDraw = True
+345.3131 	EXP 	trialSquare: autoDraw = True
+346.2970 	EXP 	trialFix: autoDraw = True
+346.3126 	EXP 	trialSquare: autoDraw = False
+347.2990 	EXP 	New trial (rep=0, index=32): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 153)])
+347.3123 	EXP 	trialGrid: autoDraw = False
+347.3123 	EXP 	trialSquare: autoDraw = False
+347.3123 	EXP 	trialFix: autoDraw = False
+347.3123 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+347.3123 	EXP 	trialGrid: autoDraw = True
+347.3123 	EXP 	trialSquare: autoDraw = True
+348.2969 	EXP 	trialFix: autoDraw = True
+348.3122 	EXP 	trialSquare: autoDraw = False
+349.2987 	EXP 	New trial (rep=0, index=33): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 154)])
+349.3118 	EXP 	trialGrid: autoDraw = False
+349.3118 	EXP 	trialSquare: autoDraw = False
+349.3118 	EXP 	trialFix: autoDraw = False
+349.3118 	EXP 	trialSquare: pos = array([0.2, 0. ])
+349.3118 	EXP 	trialGrid: autoDraw = True
+349.3118 	EXP 	trialSquare: autoDraw = True
+350.2964 	EXP 	trialFix: autoDraw = True
+350.3116 	EXP 	trialSquare: autoDraw = False
+351.2986 	EXP 	New trial (rep=0, index=34): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 155)])
+351.3113 	EXP 	trialGrid: autoDraw = False
+351.3113 	EXP 	trialSquare: autoDraw = False
+351.3113 	EXP 	trialFix: autoDraw = False
+351.3113 	EXP 	trialSquare: pos = array([0.2, 0.2])
+351.3113 	EXP 	trialGrid: autoDraw = True
+351.3113 	EXP 	trialSquare: autoDraw = True
+352.2965 	EXP 	trialFix: autoDraw = True
+352.3111 	EXP 	trialSquare: autoDraw = False
+353.2996 	EXP 	New trial (rep=0, index=35): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 156)])
+353.3117 	EXP 	trialGrid: autoDraw = False
+353.3117 	EXP 	trialSquare: autoDraw = False
+353.3117 	EXP 	trialFix: autoDraw = False
+353.3117 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+353.3117 	EXP 	trialGrid: autoDraw = True
+353.3117 	EXP 	trialSquare: autoDraw = True
+354.2974 	EXP 	trialFix: autoDraw = True
+354.3108 	EXP 	trialSquare: autoDraw = False
+355.2987 	EXP 	New trial (rep=0, index=36): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 157)])
+355.3108 	EXP 	trialGrid: autoDraw = False
+355.3108 	EXP 	trialSquare: autoDraw = False
+355.3108 	EXP 	trialFix: autoDraw = False
+355.3108 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+355.3108 	EXP 	trialGrid: autoDraw = True
+355.3108 	EXP 	trialSquare: autoDraw = True
+356.2965 	EXP 	trialFix: autoDraw = True
+356.3105 	EXP 	trialSquare: autoDraw = False
+357.2969 	EXP 	New trial (rep=0, index=37): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 158)])
+357.3098 	EXP 	trialGrid: autoDraw = False
+357.3098 	EXP 	trialSquare: autoDraw = False
+357.3098 	EXP 	trialFix: autoDraw = False
+357.3098 	EXP 	trialSquare: pos = array([0., 0.])
+357.3098 	EXP 	trialGrid: autoDraw = True
+357.3098 	EXP 	trialSquare: autoDraw = True
+358.2935 	EXP 	trialFix: autoDraw = True
+358.3098 	EXP 	trialSquare: autoDraw = False
+359.2944 	EXP 	trialFix: autoDraw = False
+359.2968 	EXP 	New trial (rep=0, index=38): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 159)])
+359.3098 	EXP 	trialGrid: autoDraw = False
+359.3098 	EXP 	trialSquare: autoDraw = False
+359.3098 	EXP 	trialFix: autoDraw = False
+359.3098 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+359.3098 	EXP 	trialGrid: autoDraw = True
+359.3098 	EXP 	trialSquare: autoDraw = True
+360.2933 	EXP 	trialFix: autoDraw = True
+360.3092 	EXP 	trialSquare: autoDraw = False
+361.2996 	EXP 	trialFix: autoDraw = False
+361.3030 	EXP 	New trial (rep=0, index=39): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 160)])
+361.3137 	EXP 	trialGrid: autoDraw = False
+361.3137 	EXP 	trialSquare: autoDraw = False
+361.3137 	EXP 	trialFix: autoDraw = False
+361.3137 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+361.3137 	EXP 	trialGrid: autoDraw = True
+361.3137 	EXP 	trialSquare: autoDraw = True
+362.2925 	EXP 	trialFix: autoDraw = True
+362.3253 	EXP 	trialSquare: autoDraw = False
+363.2941 	EXP 	New trial (rep=0, index=40): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 161)])
+363.3079 	EXP 	trialGrid: autoDraw = False
+363.3079 	EXP 	trialSquare: autoDraw = False
+363.3079 	EXP 	trialFix: autoDraw = False
+363.3079 	EXP 	trialSquare: pos = array([0., 0.])
+363.3079 	EXP 	trialGrid: autoDraw = True
+363.3079 	EXP 	trialSquare: autoDraw = True
+364.2919 	EXP 	trialFix: autoDraw = True
+364.3076 	EXP 	trialSquare: autoDraw = False
+365.2946 	EXP 	New trial (rep=0, index=41): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 162)])
+365.3075 	EXP 	trialGrid: autoDraw = False
+365.3075 	EXP 	trialSquare: autoDraw = False
+365.3075 	EXP 	trialFix: autoDraw = False
+365.3075 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+365.3075 	EXP 	trialGrid: autoDraw = True
+365.3075 	EXP 	trialSquare: autoDraw = True
+366.2920 	EXP 	trialFix: autoDraw = True
+366.3071 	EXP 	trialSquare: autoDraw = False
+367.2945 	EXP 	New trial (rep=0, index=42): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 163)])
+367.3071 	EXP 	trialGrid: autoDraw = False
+367.3071 	EXP 	trialSquare: autoDraw = False
+367.3071 	EXP 	trialFix: autoDraw = False
+367.3071 	EXP 	trialSquare: pos = array([0.2, 0.2])
+367.3071 	EXP 	trialGrid: autoDraw = True
+367.3071 	EXP 	trialSquare: autoDraw = True
+368.2931 	EXP 	trialFix: autoDraw = True
+368.3076 	EXP 	trialSquare: autoDraw = False
+369.2953 	EXP 	New trial (rep=0, index=43): OrderedDict([('square', 8), ('loc1', 0.0), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 164)])
+369.3076 	EXP 	trialGrid: autoDraw = False
+369.3076 	EXP 	trialSquare: autoDraw = False
+369.3076 	EXP 	trialFix: autoDraw = False
+369.3076 	EXP 	trialSquare: pos = array([ 0. , -0.2])
+369.3076 	EXP 	trialGrid: autoDraw = True
+369.3076 	EXP 	trialSquare: autoDraw = True
+370.2920 	EXP 	trialFix: autoDraw = True
+370.3062 	EXP 	trialSquare: autoDraw = False
+371.2939 	EXP 	New trial (rep=0, index=44): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 165)])
+371.3066 	EXP 	trialGrid: autoDraw = False
+371.3066 	EXP 	trialSquare: autoDraw = False
+371.3066 	EXP 	trialFix: autoDraw = False
+371.3066 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+371.3066 	EXP 	trialGrid: autoDraw = True
+371.3066 	EXP 	trialSquare: autoDraw = True
+372.2920 	EXP 	trialFix: autoDraw = True
+372.3057 	EXP 	trialSquare: autoDraw = False
+373.2931 	EXP 	New trial (rep=0, index=45): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 166)])
+373.3053 	EXP 	trialGrid: autoDraw = False
+373.3053 	EXP 	trialSquare: autoDraw = False
+373.3053 	EXP 	trialFix: autoDraw = False
+373.3053 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+373.3053 	EXP 	trialGrid: autoDraw = True
+373.3053 	EXP 	trialSquare: autoDraw = True
+374.2920 	EXP 	trialFix: autoDraw = True
+374.3055 	EXP 	trialSquare: autoDraw = False
+375.2958 	EXP 	New trial (rep=0, index=46): OrderedDict([('square', 9), ('loc1', 0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 167)])
+375.3073 	EXP 	trialGrid: autoDraw = False
+375.3073 	EXP 	trialSquare: autoDraw = False
+375.3073 	EXP 	trialFix: autoDraw = False
+375.3073 	EXP 	trialSquare: pos = array([ 0.2, -0.2])
+375.3073 	EXP 	trialGrid: autoDraw = True
+375.3073 	EXP 	trialSquare: autoDraw = True
+376.2905 	EXP 	trialFix: autoDraw = True
+376.3046 	EXP 	trialSquare: autoDraw = False
+377.2960 	EXP 	New trial (rep=0, index=47): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 168)])
+377.3084 	EXP 	trialGrid: autoDraw = False
+377.3084 	EXP 	trialSquare: autoDraw = False
+377.3084 	EXP 	trialFix: autoDraw = False
+377.3084 	EXP 	trialSquare: pos = array([0.2, 0.2])
+377.3084 	EXP 	trialGrid: autoDraw = True
+377.3084 	EXP 	trialSquare: autoDraw = True
+378.2916 	EXP 	trialFix: autoDraw = True
+378.3048 	EXP 	trialSquare: autoDraw = False
+379.2917 	EXP 	New trial (rep=0, index=48): OrderedDict([('square', 1), ('loc1', -0.2), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 169)])
+379.3042 	EXP 	trialGrid: autoDraw = False
+379.3042 	EXP 	trialSquare: autoDraw = False
+379.3042 	EXP 	trialFix: autoDraw = False
+379.3042 	EXP 	trialSquare: pos = array([-0.2,  0.2])
+379.3042 	EXP 	trialGrid: autoDraw = True
+379.3042 	EXP 	trialSquare: autoDraw = True
+380.2891 	EXP 	trialFix: autoDraw = True
+380.3038 	EXP 	trialSquare: autoDraw = False
+381.2907 	EXP 	New trial (rep=0, index=49): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 170)])
+381.3042 	EXP 	trialGrid: autoDraw = False
+381.3042 	EXP 	trialSquare: autoDraw = False
+381.3042 	EXP 	trialFix: autoDraw = False
+381.3042 	EXP 	trialSquare: pos = array([0., 0.])
+381.3042 	EXP 	trialGrid: autoDraw = True
+381.3042 	EXP 	trialSquare: autoDraw = True
+382.2880 	EXP 	trialFix: autoDraw = True
+382.3037 	EXP 	trialSquare: autoDraw = False
+383.2907 	EXP 	New trial (rep=0, index=50): OrderedDict([('square', 3), ('loc1', 0.2), ('loc2', 0.2), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 171)])
+383.3032 	EXP 	trialGrid: autoDraw = False
+383.3032 	EXP 	trialSquare: autoDraw = False
+383.3032 	EXP 	trialFix: autoDraw = False
+383.3032 	EXP 	trialSquare: pos = array([0.2, 0.2])
+383.3032 	EXP 	trialGrid: autoDraw = True
+383.3032 	EXP 	trialSquare: autoDraw = True
+384.2881 	EXP 	trialFix: autoDraw = True
+384.3031 	EXP 	trialSquare: autoDraw = False
+385.2905 	EXP 	New trial (rep=0, index=51): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 172)])
+385.3030 	EXP 	trialGrid: autoDraw = False
+385.3030 	EXP 	trialSquare: autoDraw = False
+385.3030 	EXP 	trialFix: autoDraw = False
+385.3030 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+385.3030 	EXP 	trialGrid: autoDraw = True
+385.3030 	EXP 	trialSquare: autoDraw = True
+386.2870 	EXP 	trialFix: autoDraw = True
+386.3026 	EXP 	trialSquare: autoDraw = False
+387.2893 	EXP 	New trial (rep=0, index=52): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 173)])
+387.3025 	EXP 	trialGrid: autoDraw = False
+387.3025 	EXP 	trialSquare: autoDraw = False
+387.3025 	EXP 	trialFix: autoDraw = False
+387.3025 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+387.3025 	EXP 	trialGrid: autoDraw = True
+387.3025 	EXP 	trialSquare: autoDraw = True
+388.2865 	EXP 	trialFix: autoDraw = True
+388.3021 	EXP 	trialSquare: autoDraw = False
+389.2888 	EXP 	New trial (rep=0, index=53): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 174)])
+389.3018 	EXP 	trialGrid: autoDraw = False
+389.3018 	EXP 	trialSquare: autoDraw = False
+389.3018 	EXP 	trialFix: autoDraw = False
+389.3018 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+389.3018 	EXP 	trialGrid: autoDraw = True
+389.3018 	EXP 	trialSquare: autoDraw = True
+390.2851 	EXP 	trialFix: autoDraw = True
+390.3016 	EXP 	trialSquare: autoDraw = False
+391.2846 	EXP 	trialFix: autoDraw = False
+391.2885 	EXP 	New trial (rep=0, index=54): OrderedDict([('square', 4), ('loc1', -0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 175)])
+391.3013 	EXP 	trialGrid: autoDraw = False
+391.3013 	EXP 	trialSquare: autoDraw = False
+391.3013 	EXP 	trialFix: autoDraw = False
+391.3013 	EXP 	trialSquare: pos = array([-0.2,  0. ])
+391.3013 	EXP 	trialGrid: autoDraw = True
+391.3013 	EXP 	trialSquare: autoDraw = True
+392.2845 	EXP 	trialFix: autoDraw = True
+392.3008 	EXP 	trialSquare: autoDraw = False
+393.2839 	EXP 	trialFix: autoDraw = False
+393.2883 	EXP 	New trial (rep=0, index=55): OrderedDict([('square', 5), ('loc1', 0.0), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 176)])
+393.3009 	EXP 	trialGrid: autoDraw = False
+393.3009 	EXP 	trialSquare: autoDraw = False
+393.3009 	EXP 	trialFix: autoDraw = False
+393.3009 	EXP 	trialSquare: pos = array([0., 0.])
+393.3009 	EXP 	trialGrid: autoDraw = True
+393.3009 	EXP 	trialSquare: autoDraw = True
+394.2840 	EXP 	trialFix: autoDraw = True
+394.3005 	EXP 	trialSquare: autoDraw = False
+395.2834 	EXP 	trialFix: autoDraw = False
+395.2871 	EXP 	New trial (rep=0, index=56): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', None), ('trialsNum', 3), ('trialNum', 177)])
+395.3001 	EXP 	trialGrid: autoDraw = False
+395.3001 	EXP 	trialSquare: autoDraw = False
+395.3001 	EXP 	trialFix: autoDraw = False
+395.3001 	EXP 	trialSquare: pos = array([0.2, 0. ])
+395.3001 	EXP 	trialGrid: autoDraw = True
+395.3001 	EXP 	trialSquare: autoDraw = True
+396.2830 	EXP 	trialFix: autoDraw = True
+396.3006 	EXP 	trialSquare: autoDraw = False
+397.2829 	EXP 	trialFix: autoDraw = False
+397.2876 	EXP 	New trial (rep=0, index=57): OrderedDict([('square', 2), ('loc1', 0.0), ('loc2', 0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 178)])
+397.3000 	EXP 	trialGrid: autoDraw = False
+397.3000 	EXP 	trialSquare: autoDraw = False
+397.3000 	EXP 	trialFix: autoDraw = False
+397.3000 	EXP 	trialSquare: pos = array([0. , 0.2])
+397.3000 	EXP 	trialGrid: autoDraw = True
+397.3000 	EXP 	trialSquare: autoDraw = True
+398.2825 	EXP 	trialFix: autoDraw = True
+398.2994 	EXP 	trialSquare: autoDraw = False
+399.2822 	EXP 	trialFix: autoDraw = False
+399.3016 	EXP 	New trial (rep=0, index=58): OrderedDict([('square', 7), ('loc1', -0.2), ('loc2', -0.2), ('corrAns', None), ('trialsNum', 3), ('trialNum', 179)])
+399.3155 	EXP 	trialGrid: autoDraw = False
+399.3155 	EXP 	trialSquare: autoDraw = False
+399.3155 	EXP 	trialFix: autoDraw = False
+399.3155 	EXP 	trialSquare: pos = array([-0.2, -0.2])
+399.3155 	EXP 	trialGrid: autoDraw = True
+399.3155 	EXP 	trialSquare: autoDraw = True
+400.2992 	EXP 	trialFix: autoDraw = True
+400.3152 	EXP 	trialSquare: autoDraw = False
+401.2990 	EXP 	trialFix: autoDraw = False
+401.3011 	EXP 	New trial (rep=0, index=59): OrderedDict([('square', 6), ('loc1', 0.2), ('loc2', 0.0), ('corrAns', 'space'), ('trialsNum', 3), ('trialNum', 180)])
+401.3152 	EXP 	trialGrid: autoDraw = False
+401.3152 	EXP 	trialSquare: autoDraw = False
+401.3152 	EXP 	trialFix: autoDraw = False
+401.3152 	EXP 	trialSquare: pos = array([0.2, 0. ])
+401.3152 	EXP 	trialGrid: autoDraw = True
+401.3152 	EXP 	trialSquare: autoDraw = True
+402.2988 	EXP 	trialFix: autoDraw = True
+402.3148 	EXP 	trialSquare: autoDraw = False
+403.3144 	EXP 	trialGrid: autoDraw = False
+403.3144 	EXP 	trialSquare: autoDraw = False
+403.3144 	EXP 	trialFix: autoDraw = False
+403.3144 	EXP 	thanks: autoDraw = True
+406.3140 	EXP 	thanks: autoDraw = False
+406.7140 	EXP 	window1: mouseVisible = True
